@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<!-- Setting Viewport -->
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Circles -->
+<link rel="stylesheet" type="text/css" href="css/circle.css">
+<!-- Font Awesome -->
+<script src="https://use.fontawesome.com/d01670aec6.js"></script>
+
+
+<head/>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+        <div class="logo-text">GIGPRO</div>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="how-it-works">How It Works</a></li>
+          <li><a href="why-us">Why Us</a></li>
+          <li><a href="services">Services</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-search"></i></a></li>
+        <li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        <li><a href="#"><i class="fa fa-lock"></i></a></li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+<div class="blue-banner">
+<h1 class="banner">Dashboard</h1>
+</div>
+
+<div class="wrapper">
+<div class="nav-light-grey">
+  <div class="btn-group" role="group" aria-label="...">
+    <a href="#"><button type="button" class="btn btn-default btn-group-color active">Dashboard</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Inbox</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Edit Promokit</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Tools</button></a>
+    <a href="#"><button type="button" class="btn btn-default no-right btn-group-color">Account</button></a>
+  </div>
+</div>
+</div>
+
+<div class="wrapper">
+<div class="nav-light-grey dark-grey">
+<div class="container">
+<div class="wrapped">
+
+<div class="grey-left">
+<div class="grey-left-icon">
+<i class="fa fa-home fa-2x"></i>
+</div>
+<div class="grey-left-text">
+Elite Band (free)
+</div>
+</div>
+
+<div class="grey-right">
+  <button class="button-outline">
+  Upgrade
+  </button>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="container margin-top">
+<div class="col-md-1">
+</div>
+
+<div class="col-md-2">
+  <div class="rounded-box-filled">
+
+  <div class="wrapper">
+  <div class="rounded-box-grey-title">
+  Promokit
+  </div>
+
+  <div class="wrapper-center">
+  <div class="c100 p12 small">
+  <div class="slice">
+      <div class="bar"></div>
+      <div class="fill"></div>
+  </div>
+  </div>
+  </div>
+
+  <div class="rounded-box-grey-completed">
+  completed
+  </div>
+
+  <div class="rounded-box-grey-percentage">
+  12%
+  </div>
+
+  <div class="editing-left">
+  <i class="fa fa-pencil pencil-white"></i>
+  <div class="rounded-box-grey-profile">
+  edit
+  </div>
+  </div>
+
+  <div class="editing-right">
+  <i class="fa fa-eye pencil-white"></i>
+  <div class="rounded-box-grey-profile">
+  view
+  </div>
+  </div>
+
+  </div>
+  <!-- wrapper -->
+  </div>
+  <!-- rounded-box -->
+</div>
+
+<div class="col-md-8 mobile-margin-top">
+<div class="rounded-box-stats">
+  <div class="rounded-box-top-dash">
+    <div class="stats-one-col"></div>
+    <div class="stats-two-col">Your booking stats</div>
+    <div class="stats-three-col"></div>
+    <div class="stats-right">
+      <button class="button-outline">
+      Inbox
+      </button>
+    </div>
+  </div>
+
+<div class="rounded-box-stats-numbers">
+  <div class="col-md-1">
+  </div>
+
+  <div class="col-md-2 margin-small-top no-paddings">
+    <div class="booking-stats border-right-stats">
+    8
+    </div>
+    <div class="stats-number-caption">
+    Leads
+    </div>
+  </div>
+
+  <div class="col-md-2 margin-small-top no-paddings">
+    <div class="booking-stats border-right-stats">
+    16
+    </div>
+    <div class="stats-number-caption">
+    Quotes
+    </div>
+  </div>
+
+  <div class="col-md-2 margin-small-top no-paddings">
+    <div class="booking-stats border-right-stats">
+    32
+    </div>
+    <div class="stats-number-caption">
+    Bookings
+    </div>
+  </div>
+
+  <div class="col-md-2 margin-small-top no-paddings">
+    <div class="booking-stats border-right-stats">
+    7
+    </div>
+    <div class="stats-number-caption">
+    Closed
+    </div>
+  </div>
+
+  <div class="col-md-2 margin-small-top no-paddings">
+    <div class="booking-stats">
+    12
+    </div>
+    <div class="stats-number-caption">
+    Bookings
+    </div>
+  </div>
+
+  <div class="col-md-1">
+  </div>
+</div>
+</div>
+</div>
+
+<div class="col-md-1">
+</div>
+</div>
+<!-- end container full-width-->
+
+<div class="container padding-small-top">
+<div class="col-md-1">
+</div>
+
+<div class="col-md-5">
+  <div class="rounded-your-reviews">
+    <div class="rounded-box-top-dash">
+      <div class="stats-one-col-b"></div>
+      <div class="stats-two-col">Your reviews</div>
+      <div class="stats-three-col"></div>
+      <div class="stats-right">
+        <button class="button-outline">
+        view reviews
+        </button>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="reviews-text">
+      Overall Ranking <span class="magenta">3</span>
+      </div>
+      <div class="reviews-image">
+      </div>
+
+      <div class="col-md-12">
+      <div class="wrapper">
+      <div class="wrapped-center">
+      <div class="reviews-star"></div>
+      <div class="reviews-star"></div>
+      <div class="reviews-star"></div>
+      <div class="reviews-star"></div>
+      <div class="reviews-star"></div>
+      </div>
+      </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-6">
+    <div class="reviews-text">Total Reviews<br><span class="magenta">10</span></div>
+    <div class="reviews-text">Total Reviews<br><span class="magenta">10</span></div>
+    <div class="reviews-text">Total Reviews<br><span class="magenta">10</span></div>
+
+    <button class="button-outline-left">
+    Manage Reviews
+    </button>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="col-md-3 mobile-margin-top">
+  <div class="rounded-light-grey">
+
+  <div class="reviews-title">
+  Noteworthy:
+  </div>
+  <div class="reviews-small-text">
+  3/1/2017 – Do you offer tea party services for adults or children? If so, add our new Tea Party category to your PromoKit to connect with those searching for you!
+  <br><br>
+  <span class="magenta">Update your categories now.</span>
+  </div>
+
+  </div>
+</div>
+
+<div class="col-md-2 mobile-margin-top">
+  <div class="rounded-light-grey">
+    <div class="reviews-title">
+    Case Study
+    </div>
+    <div class="reviews-case"></div>
+
+    <div class="reviews-title">
+    Arthur Blacke
+    </div>
+    <div class="reviews-small-text">
+    Listen to my story and enjoy this wonderful video!
+    </div>
+
+  </div>
+</div>
+
+<div class="col-md-1">
+</div>
+
+</div>
+<!-- end container full-width-->
+
+<div class="container padding-small-top">
+<div class="col-md-1">
+</div>
+
+<div class="col-md-10">
+<div class="rounded-box-awards">
+      <div class="rounded-box-top-dash">
+      <div class="stats-one-col-c"></div>
+      <div class="stats-two-col">Awards you earned</div>
+      <div class="stats-three-col"></div>
+      <div class="stats-right">
+        <button class="button-outline">
+        Inbox
+        </button>
+      </div>
+      </div>
+
+  <div class="col-md-1">
+  </div>
+
+  <div class="col-md-2 no-paddings">
+    <div class="awards-text">Rapid <br>Responder </div>
+    <hr class="awards">
+    <div class="awards1"></div>
+  </div>
+
+  <div class="col-md-2 no-paddings">
+    <div class="awards-text">50+ Verified Bookings</div>
+    <hr class="awards">
+    <div class="awards2"></div>
+  </div>
+
+  <div class="col-md-2 no-paddings">
+    <div class="awards-text">50+ Verified Reviews</div>
+    <hr class="awards">
+    <div class="awards3"></div>
+  </div>
+
+  <div class="col-md-2 no-paddings">
+    <div class="awards-text">Top performer of the Year</div>
+    <hr class="awards">
+    <div class="awards4"></div>
+  </div>
+
+  <div class="col-md-2 no-paddings">
+    <div class="awards-text">Top performer of the Month</div>
+    <hr class="awards">
+    <div class="awards5"></div>
+  </div>
+
+  <div class="col-md-1">
+  </div>
+</div>
+</div>
+
+<div class="col-md-1">
+</div>
+
+</div>
+<!-- end container full-width row-3-->
+
+<div class="container padding-small-top">
+<div class="col-md-1">
+</div>
+
+<div class="col-md-10">
+<div class="rounded-box-awards-4">
+      <div class="rounded-box-top-dash-purple">
+      <div class="stats-one-col-d"></div>
+      <div class="stats-two-col">Your visitor stats</div>
+      <div class="stats-three-col"></div>
+      <div class="stats-right">
+        <button class="button-outline">
+        Tools
+        </button>
+      </div>
+      </div>
+
+<!-- stats -->
+  <div class="col-md-2">
+  <div class="stats-number mobile-hide">
+  50<br>
+  40<br>
+  30<br>
+  20<br>
+  10<br>
+  1<br>
+  </div>
+  </div>
+
+  <div class="col-md-10">
+  <div class="stats-graphic"></div>
+  </div>
+
+<!-- stats days -->
+
+<div class="col-md-1">
+</div>
+
+  <div class="col-md-2">
+  </div>
+
+  <div class="col-md-2">
+    <div class="stats-number mobile-hide">
+    last 30 days
+    </div>
+  </div>
+
+  <div class="col-md-2">
+    <div class="stats-number mobile-hide">
+    last 60 days
+    </div>
+  </div>
+
+  <div class="col-md-2">
+    <div class="stats-number mobile-hide">
+    last 90 days
+    </div>
+  </div>
+
+  <div class="col-md-2">
+    <div class="stats-number mobile-hide">
+    last 120 days
+    </div>
+  </div>
+
+<div class="col-md-1">
+</div>
+<!-- stats days -->
+
+</div>
+</div>
+
+<div class="col-md-1">
+</div>
+
+</div>
+<!-- end container full-width row-4-->
+
+<div class="container padding-small-top">
+<div class="col-md-1">
+</div>
+
+<div class="col-md-10">
+<div class="rounded-box-map">
+      <div class="rounded-box-top-dash-map">
+      <div class="stats-one-col-d"></div>
+      <div class="stats-two-col">Map</div>
+</div>
+
+</div>
+</div>
+
+<div class="col-md-1">
+</div>
+
+</div>
+<!-- end container full-width row-5-->
+
+
+
+<div class="triangles-white">
+</div>
+
+<footer>
+
+<div class="container margin-top-footer">
+
+<div class="row">
+<div class="col-md-5">
+<div class="footer-lines"></div>
+</div>
+
+<div class="col-md-2">
+<div class="footer-logo">GIGPRO</div>
+</div>
+
+<div class="col-md-5">
+<div class="footer-lines-two"></div>
+</div>
+</div>
+
+<div class="container margin-bottom-footer">
+<div class="row">
+
+<div class="col-md-3">
+</div>
+
+
+      <div class="col-md-2">
+      <p class="white-paragraph-title">
+      The Company
+      </p>
+
+      <a href="#">
+      <p class="white-paragraph">
+      About Us
+      </p>
+      </a>
+      </div>
+
+      <div class="col-md-2">
+        <p class="white-paragraph-title">
+        Performers/Pros
+        </p>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Memberships
+        </p>
+        </a>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Testimonials
+        </p>
+        </a>
+
+      </div>
+
+      <div class="col-md-2">
+        <p class="white-paragraph-title">
+        Support
+        </p>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Party Ideas
+        </p>
+        </a>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Contact Us
+        </p>
+        </a>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Help Desk
+        </p>
+        </a>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Send Feedback
+        </p>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="two-thirds-row margin-bottom-footer">
+
+<div class="row">
+<div class="col-md-4">
+</div>
+
+<div class="col-md-4">
+<div class="wrapper">
+<div class="display-inline">
+<div class="social-circle">
+<a href="#">
+<i class="fa fa-facebook"></i>
+</a>
+</div>
+
+<div class="social-circle">
+<a href="#">
+<i class="fa fa-twitter"></i>
+</a>
+</div>
+
+<div class="social-circle">
+<a href="#">
+<i class="fa fa fa-linkedin"></i>
+</a>
+</div>
+
+<div class="social-circle">
+<a href="#">
+<i class="fa fa-pinterest-p"></i>
+</a>
+</div>
+
+<div class="social-circle">
+<a href="#">
+<i class="fa fa-instagram"></i>
+</a>
+</div>
+
+</div>
+</div>
+</div>
+<!-- end wrapper -->
+
+<div class="col-md-4">
+</div>
+</div>
+
+<div class="chat">
+<a href="#">
+<i class="fa fa-commenting-o fa-2x"></i>
+</a>
+</div>
+
+</footer>
+
+
+</body>
+</html>

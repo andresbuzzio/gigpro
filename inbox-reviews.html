@@ -80,11 +80,11 @@
 <div class="wrapper">
 <div class="nav-light-grey dark-grey">
   <div class="btn-group" role="group" aria-label="...">
-    <a href="#"><button type="button" class="btn btn-default btn-group-color active">Gig Leads</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Gig Leads</button></a>
     <a href="#"><button type="button" class="btn btn-default btn-group-color">Booked gigs</button></a>
     <a href="#"><button type="button" class="btn btn-default btn-group-color">Payout</button></a>
     <a href="#"><button type="button" class="btn btn-default btn-group-color">Gigsoup</button></a>
-    <a href="#"><button type="button" class="btn btn-default btn-group-color">Reviews</button></a>
+    <a href="#"><button type="button" class="btn btn-default no-right btn-group-color active">Reviews</button></a>
   </div>
 </div>
 </div>
@@ -98,8 +98,7 @@ All Messages
 </div>
 <div class="border-bottom-sidebar"></div>
 
-<a href="#">
-<div class="circle-sidebar"></div>
+<a href="inbox-gig-leads.html">
 <div class="item-sidebar">
 Gig Leads
 </div>
@@ -112,7 +111,7 @@ Gig Leads
 <div class="subitem-sidebar">Past Dates</div>
 </a>
 
-<a href="#">
+<a href="inbox-booked-gigs.html">
 <div class="item-sidebar">
 Booked Gigs
 </div>
@@ -125,7 +124,7 @@ Booked Gigs
 <div class="subitem-sidebar">Past Dates</div>
 </a>
 
-<a href="#">
+<a href="inbox-payouts.html">
 <div class="item-sidebar">
 Payouts
 </div>
@@ -138,7 +137,7 @@ Payouts
 <div class="subitem-sidebar">Choose Month</div>
 </a>
 
-<a href="#">
+<a href="inbox-gig-soup.html">
 <div class="item-sidebar">
 Gig Soup
 </div>
@@ -151,7 +150,8 @@ Gig Soup
 <div class="subitem-sidebar">Contacted</div>
 </a>
 
-<a href="#">
+<a href="inbox-archived.html">
+<div class="circle-sidebar"></div>
 <div class="item-sidebar">
 Reviews
 </div>
@@ -189,173 +189,214 @@ Learn More
 
 <div class="col-md-10">
 
-  <form>
-  <input type="text" class="search-inbox" placeholder="Search inbox">
-  </form>
+<div class="reviews-box">
 
-  <div class="choose-title">
-  Choose month:
-  </div>
-
-<div class="select-month">
-  <select class="choose-month">
-   <option selected>January</option>
-   <option>February</option>
-   <option>March</option>
-   <option>April</option>
-   <option>May</option>
-   <option>June</option>
-   <option>July</option>
-   <option>August</option>
-   <option>September</option>
-   <option>October</option>
-   <option>November</option>
-   <option>December</option>
-  </select>
+<div class="col-md-12 border-bottom-reviews">
+<div class="reviews-box-left">
+<div class="reviews-box-title">
+Your Reviews
+</div>
+</div>
 </div>
 
-<div class="all-messages">
-<div class="all-messages-image"></div>
-<div class="all-messages-text">
-All Messages
+<div class="col-md-12">
+
+<div class="reviews-box-left border-right-reviews padding-right-reviews">
+<div class="reviews-box-title">
+0
+</div>
+<div class="reviews-box-text">
+Verified Reviews
+</div>
 </div>
 
-<button class="button-outline">
-Archive
-</button>
+<div class="reviews-box-left border-right-reviews padding-reviews">
+<div class="reviews-box-title">
+2
 </div>
+<div class="reviews-box-text">
+Unverified Reviews
+</div>
+</div>
+
+<div class="reviews-box-left border-right-reviews padding-reviews">
+<div class="reviews-box-title">
+  <i class="fa fa-star line-height"></i>
+  <i class="fa fa-star line-height"></i>
+  <i class="fa fa-star line-height"></i>
+  <i class="fa fa-star line-height"></i>
+  <i class="fa fa-star line-height"></i>
+</div>
+<div class="reviews-box-text">
+3.5	Overall Rating
+</div>
+</div>
+
+</div>
+
+</div>
+<!-- reviews-box -->
 
 <!-- Messages -->
 
 <div class="row inbox-margin-rows">
-<div class="col-md-2">
-    <input type="radio" name="01" value="01"><div class="radio-text">01</div>
-</div>
 
-<div class="col-md-2">
+<div class="col-md-3">
+<div class="wrapper">
+<div class="wrapped-center">
 <div class="avatar-inbox">D</div>
 </div>
+</div>
+</div>
 
-<div class="col-md-2">
-<div class="name-inbox-text bold inbox-name-margin">
+<div class="col-md-3">
+<div class="name-inbox-text bold">
 Deepak<br>
 <div class="name-inbox-text">May 18th</div>
 </div>
 </div>
 
-<div class="col-md-4">
-<div class="name-inbox-text inbox-name-margin">
-  Event: Bachelor Party New Hope, AL
-  <br>(Sat, Jun 10, 2017)
+<div class="col-md-3">
+<div class="name-inbox-text">
+<span class="bold">Poor</span>
+<br>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o reviews"></i>
+<i class="fa fa-star-o reviews"></i>
+<i class="fa fa-star-o reviews"></i>
 </div>
 </div>
 
 <div class="col-md-2">
-  <div class="name-inbox-text bold inbox-name-margin">
-    <span class="magenta">No longer available</span>
+  <div class="name-inbox-text bold">
+    <span class="blue">Unverified review</span>
   </div>
 </div>
+
 </div>
 <!-- end row -->
 
 <!-- Messages -->
 
 <div class="row inbox-margin-rows">
-<div class="col-md-2">
-    <input type="radio" name="01" value="01"><div class="radio-text">01</div>
-</div>
 
-<div class="col-md-2">
-<div class="avatar-inbox avatar-inbox-grey">A</div>
-</div>
-
-<div class="col-md-2">
-<div class="name-inbox-text bold inbox-name-margin">
-Deepak<br>
-<div class="name-inbox-text">May 18th</div>
-</div>
-</div>
-
-<div class="col-md-4">
-<div class="name-inbox-text inbox-name-margin">
-  Event: Bachelor Party New Hope, AL
-  <br>(Sat, Jun 10, 2017)
-</div>
-</div>
-
-<div class="col-md-2">
-  <div class="name-inbox-text bold inbox-name-margin">
-    <span class="magenta">No longer available</span>
-  </div>
-</div>
-</div>
-<!-- end row -->
-
-<!-- Messages -->
-
-<div class="row inbox-margin-rows">
-<div class="col-md-2">
-    <input type="radio" name="01" value="01"><div class="radio-text">01</div>
-</div>
-
-<div class="col-md-2">
-<div class="avatar-inbox avatar-inbox-magenta">R</div>
-</div>
-
-<div class="col-md-2">
-<div class="name-inbox-text bold inbox-name-margin">
-Deepak<br>
-<div class="name-inbox-text">May 18th</div>
-</div>
-</div>
-
-<div class="col-md-4">
-<div class="name-inbox-text inbox-name-margin">
-  Event: Bachelor Party New Hope, AL
-  <br>(Sat, Jun 10, 2017)
-</div>
-</div>
-
-<div class="col-md-2">
-  <div class="name-inbox-text bold inbox-name-margin">
-    <span class="magenta">No longer available</span>
-  </div>
-</div>
-</div>
-<!-- end row -->
-
-<!-- Messages -->
-
-<div class="row inbox-margin-rows">
-<div class="col-md-2">
-    <input type="radio" name="01" value="01"><div class="radio-text">01</div>
-</div>
-
-<div class="col-md-2">
+<div class="col-md-3">
+<div class="wrapper">
+<div class="wrapped-center">
 <div class="avatar-inbox">D</div>
 </div>
+</div>
+</div>
 
-<div class="col-md-2">
-<div class="name-inbox-text bold inbox-name-margin">
+<div class="col-md-3">
+<div class="name-inbox-text bold">
 Deepak<br>
 <div class="name-inbox-text">May 18th</div>
 </div>
 </div>
 
-<div class="col-md-4">
-<div class="name-inbox-text inbox-name-margin">
-  Event: Bachelor Party New Hope, AL
-  <br>(Sat, Jun 10, 2017)
+<div class="col-md-3">
+<div class="name-inbox-text">
+<span class="bold">Poor</span>
+<br>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o reviews"></i>
+<i class="fa fa-star-o reviews"></i>
+<i class="fa fa-star-o reviews"></i>
 </div>
 </div>
 
 <div class="col-md-2">
-  <div class="name-inbox-text bold inbox-name-margin">
-    <span class="magenta">No longer available</span>
+  <div class="name-inbox-text bold">
+    <span class="blue">Unverified review</span>
   </div>
 </div>
+
 </div>
 <!-- end row -->
+
+<!-- Messages -->
+
+<div class="row inbox-margin-rows">
+
+<div class="col-md-3">
+<div class="wrapper">
+<div class="wrapped-center">
+<div class="avatar-inbox">D</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="name-inbox-text bold">
+Deepak<br>
+<div class="name-inbox-text">May 18th</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="name-inbox-text">
+<span class="bold">Poor</span>
+<br>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o reviews"></i>
+<i class="fa fa-star-o reviews"></i>
+<i class="fa fa-star-o reviews"></i>
+</div>
+</div>
+
+<div class="col-md-2">
+  <div class="name-inbox-text bold">
+    <span class="blue">Unverified review</span>
+  </div>
+</div>
+
+</div>
+<!-- end row -->
+
+<!-- Messages -->
+
+<div class="row inbox-margin-rows">
+
+<div class="col-md-3">
+<div class="wrapper">
+<div class="wrapped-center">
+<div class="avatar-inbox">D</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="name-inbox-text bold">
+Deepak<br>
+<div class="name-inbox-text">May 18th</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="name-inbox-text">
+<span class="bold">Poor</span>
+<br>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o reviews"></i>
+<i class="fa fa-star-o reviews"></i>
+<i class="fa fa-star-o reviews"></i>
+</div>
+</div>
+
+<div class="col-md-2">
+  <div class="name-inbox-text bold">
+    <span class="blue">Unverified review</span>
+  </div>
+</div>
+
+</div>
+<!-- end row -->
+
 
 </div>
 <!-- end col-md-10 -->

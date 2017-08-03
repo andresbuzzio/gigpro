@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<!-- Setting Viewport -->
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Circles -->
+<link rel="stylesheet" type="text/css" href="css/circle.css">
+<!-- Font Awesome -->
+<script src="https://use.fontawesome.com/d01670aec6.js"></script>
+
+
+<head/>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+        <div class="logo-text">GIGPRO</div>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="how-it-works">How It Works</a></li>
+          <li><a href="why-us">Why Us</a></li>
+          <li><a href="services">Services</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-search"></i></a></li>
+        <li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        <li><a href="#"><i class="fa fa-lock"></i></a></li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="blue-banner">
+  <h1 class="banner">Edit PromoKit</h1>
+  </div>
+<!-- end header banner -->
+
+<div class="wrapper">
+<div class="nav-light-grey">
+  <div class="btn-group" role="group" aria-label="...">
+    <a href="#"><button type="button" class="btn btn-default btn-group-color active">Dashboard</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Inbox</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Edit Promokit</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Tools</button></a>
+    <a href="#"><button type="button" class="btn btn-default no-right btn-group-color">Account</button></a>
+  </div>
+</div>
+</div>
+
+<div class="wrapper">
+<div class="nav-light-grey dark-grey">
+  <div class="btn-group" role="group" aria-label="...">
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">General Info</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Media</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color active">Details</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Quote Settings</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Calendar</button></a>
+  </div>
+</div>
+</div>
+
+<div class="container margin-top">
+  <div class="row">
+
+  <div class="col-md-2">
+  <div class="rounded-box-outline">
+
+  <div class="wrapper">
+  <div class="rounded-box-title-grey">
+  Profile completed:
+  </div>
+
+  <div class="wrapper-center">
+  <div class="c100 p12 small">
+  <div class="slice">
+      <div class="bar"></div>
+      <div class="fill"></div>
+  </div>
+  </div>
+  </div>
+
+  <div class="rounded-box-percentage">
+  12%
+  </div>
+
+  <i class="fa fa-pencil"></i>
+
+  <div class="rounded-box-profile">
+  View profile
+  </div>
+
+  </div>
+  <!-- wrapper -->
+
+</div>
+<!-- rounded-box -->
+
+<div class="calendar-box">
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading no-paddings" role="tab" id="headingOne">
+
+      <h4 class="panel-title listTitle-rounded-box">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          General Info
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body panel-promokit">
+
+      <ul class="u-list-group-promokit">
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Profile photo</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-green"></i>PromoKit Location</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>PromoKit Travel Distance</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Act/Service Name</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Main Category</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Add Category</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Event Type</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Request review</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Open your travel</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Gender</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>DOB</li>
+        <li class="list-group-promokit"><i class="fa fa-lock fa-lock-promokit fa-magenta"></i>Performing since</li>
+        <li class="list-group-promokit"><i class="fa fa-exclamation-triangle fa-magenta"></i>Artist’s Manager</li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title listTitle-rounded-box">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Media
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body panel-promokit">
+      Media Content
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title listTitle-rounded-box">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Details
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body panel-promokit">
+      Details Content
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title listTitle-rounded-box">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+        Quote Settings
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body panel-promokit">
+      Quote Settings Content
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title listTitle-rounded-box">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+          Calendar
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+      <div class="panel-body panel-promokit">
+      Calendar Content
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- end of the list-group -->
+</div>
+<!-- calendar-box -->
+</div>
+<!-- col-2 -->
+
+<div class="col-md-10">
+
+  <div class="col-md-12 no-paddings">
+  <div class="rounded-title-magenta-title">
+  Details
+  </div>
+  </div>
+  <!-- col-12 -->
+
+  <!-- Collapse 1 -->
+
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default items-general-info-bottom">
+      <div class="panel-heading no-border no-paddings">
+        <h4 class="panel-title items-general-info-text">
+
+          <div class="col-md-3 no-paddings padding-bottom">
+          <div class="promokit-icon3b"></div>
+          Biography
+          </div>
+
+          <div class="col-md-9 no-paddings mobile-margin-bottom">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="blue-button-general-info">
+          Edit
+          </a>
+          </div>
+
+        </h4>
+      </div>
+
+      <div id="collapse1" class="panel-collapse collapse in">
+
+      <div class="col-md-3">
+      </div>
+
+      <div class="col-md-9 no-paddings margin-small-top">
+      <textarea rows="8"></textarea>
+      </div>
+
+      <div class="col-md-3">
+      </div>
+
+      <div class="col-md-3 no-paddings margin-small-top">
+      <a href="#" class="grey-upload hundred-percent">Edit</a>
+      </div>
+
+      <div class="col-md-3">
+      </div>
+
+      <div class="col-md-3 no-paddings margin-small-top">
+      <a href="#" class="blue-upload hundred-percent">Save</a>
+      </div>
+
+      <!-- CONTENT 1 -->
+
+      </div>
+    </div>
+  </div>
+  <!-- END COLLAPSABLE -->
+
+<!-- Collapse 2 -->
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default items-general-info-bottom">
+    <div class="panel-heading no-border no-paddings">
+      <h4 class="panel-title items-general-info-text">
+
+        <div class="col-md-3 no-paddings margin-bottom-small">
+        What to expect?
+        </div>
+
+        <div class="col-md-9 no-paddings mobile-margin-bottom">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="blue-button-general-info">
+        Edit
+        </a>
+        </div>
+
+      </h4>
+    </div>
+
+<div id="collapse2" class="panel-collapse collapse">
+
+<!-- CONTENT 2 -->
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-9 no-paddings margin-small-top">
+<p><span class="bold">
+If an audience came to see you, what would they see? If a client hired you, what would they get? This section is meant to present a clear idea of your performance or services.
+</p>
+
+<textarea rows="8"></textarea>
+
+</div>
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-3 no-paddings margin-small-top">
+<a href="#" class="grey-upload hundred-percent">Edit</a>
+</div>
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-3 no-paddings margin-small-top">
+<a href="#" class="blue-upload hundred-percent">Save</a>
+</div>
+
+<!-- CONTENT 2 -->
+
+</div>
+</div>
+</div>
+<!-- END COLLAPSABLE -->
+
+<!-- Collapse 3 -->
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default items-general-info-bottom">
+    <div class="panel-heading no-border no-paddings">
+      <h4 class="panel-title items-general-info-text">
+
+        <div class="col-md-3 no-paddings margin-bottom-small">
+        What’s the typical duration of your gigs?
+        </div>
+
+        <div class="col-md-9 no-paddings mobile-margin-bottom">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="blue-button-general-info">
+        Edit
+        </a>
+        </div>
+
+      </h4>
+    </div>
+
+<div id="collapse3" class="panel-collapse collapse">
+
+<!-- CONTENT 3 -->
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-9 no-paddings margin-small-top">
+<p><span class="bold">How long do your shows or services typically last?</p>
+
+<div class="label-form">Minimum Time:</div>
+<select class="choose-promokit">
+ <option selected>20 minutes</option>
+ <option>40 minutes</option>
+</select>
+
+<br><br>
+
+<div class="label-form">Maximum Time:</div>
+<select class="choose-promokit">
+ <option selected>30 minutes</option>
+ <option>60 minutes</option>
+</select>
+
+</div>
+<!-- end col-9-->
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-3 no-paddings margin-small-top">
+<a href="#" class="grey-upload hundred-percent">Edit</a>
+</div>
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-3 no-paddings margin-small-top">
+<a href="#" class="blue-upload hundred-percent">Save</a>
+</div>
+
+<!-- CONTENT 3 -->
+
+</div>
+</div>
+</div>
+<!-- END COLLAPSABLE -->
+
+<!-- Collapse 4 -->
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default items-general-info-bottom">
+    <div class="panel-heading no-border no-paddings">
+      <h4 class="panel-title items-general-info-text">
+
+        <div class="col-md-3 no-paddings margin-bottom-small">
+        Which languages do you speak?
+        </div>
+
+        <div class="col-md-9 no-paddings mobile-margin-bottom">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="blue-button-general-info">
+        Edit
+        </a>
+        </div>
+
+      </h4>
+    </div>
+
+<div id="collapse4" class="panel-collapse collapse">
+
+<!-- CONTENT 4 -->
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-9 no-paddings margin-small-top">
+
+<div class="col-md-6">
+  <div class="row">
+  <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">Arabic</div>
+  </div>
+  <div class="row">
+  <input type="radio" class="radio-tools" name="02" value="02"><div class="radio-text-promokit">Chinese</div>
+  </div>
+  <div class="row">
+  <input type="radio" class="radio-tools" name="03" value="03"><div class="radio-text-promokit">English</div>
+  </div>
+  <div class="row">
+  <input type="radio" class="radio-tools" name="04" value="04"><div class="radio-text-promokit">French</div>
+  </div>
+  <div class="row">
+  <input type="radio" class="radio-tools" name="05" value="05"><div class="radio-text-promokit">German</div>
+  </div>
+  <div class="row">
+  <input type="radio" class="radio-tools" name="06" value="06"><div class="radio-text-promokit">Hindi</div>
+  </div>
+</div>
+
+<div class="col-md-6">
+  <div class="row">
+  <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">Arabic</div>
+  </div>
+  <div class="row">
+  <input type="radio" class="radio-tools" name="02" value="02"><div class="radio-text-promokit">Chinese</div>
+  </div>
+  <div class="row">
+  <input type="radio" class="radio-tools" name="03" value="03"><div class="radio-text-promokit">English</div>
+  </div>
+  <div class="row">
+  <input type="radio" class="radio-tools" name="04" value="04"><div class="radio-text-promokit">French</div>
+  </div>
+  <div class="row">
+  <input type="radio" class="radio-tools" name="05" value="05"><div class="radio-text-promokit">German</div>
+  </div>
+  <div class="row">
+  <input type="radio" class="radio-tools" name="06" value="06"><div class="radio-text-promokit">Hindi</div>
+  </div>
+</div>
+
+</div>
+<!-- end col-9-->
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-3 no-paddings margin-small-top">
+</div>
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-3 no-paddings margin-small-top">
+<a href="#" class="blue-upload hundred-percent">Save</a>
+</div>
+
+<!-- CONTENT 4 -->
+
+</div>
+</div>
+</div>
+<!-- END COLLAPSABLE -->
+
+<!-- Collapse 5 -->
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default items-general-info-bottom">
+    <div class="panel-heading no-border no-paddings">
+      <h4 class="panel-title items-general-info-text">
+
+        <div class="col-md-3 no-paddings margin-bottom-small">
+        What are the technical requirements for your service?
+        </div>
+
+        <div class="col-md-9 no-paddings mobile-margin-bottom">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="blue-button-general-info">
+        Edit
+        </a>
+        </div>
+
+      </h4>
+    </div>
+
+<div id="collapse5" class="panel-collapse collapse">
+
+<!-- CONTENT 5 -->
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-9 no-paddings margin-small-top">
+<p><span class="bold">
+Here’s where you can get technical. List any important information about your performances or services, including requirements for lighting, staging, and sound.
+</p>
+
+<p><span class="bold">
+Notes and Technical Info
+</p>
+
+<textarea rows="8"></textarea>
+
+</div>
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-3 no-paddings margin-small-top">
+<a href="#" class="grey-upload hundred-percent">Edit</a>
+</div>
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-3 no-paddings margin-small-top">
+<a href="#" class="blue-upload hundred-percent">Save</a>
+</div>
+
+<!-- CONTENT 5 -->
+
+</div>
+</div>
+</div>
+<!-- END COLLAPSABLE -->
+
+<!-- Collapse 6 -->
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default items-general-info-bottom">
+    <div class="panel-heading no-border no-paddings">
+      <h4 class="panel-title items-general-info-text">
+
+        <div class="col-md-3 no-paddings margin-bottom-small">
+        Are you an individual or group act?
+        </div>
+
+        <div class="col-md-9 no-paddings mobile-margin-bottom">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="blue-button-general-info">
+        Edit
+        </a>
+        </div>
+
+      </h4>
+    </div>
+
+<div id="collapse6" class="panel-collapse collapse">
+
+<!-- CONTENT 6 -->
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-9 no-paddings margin-small-top">
+
+<p class="bold">
+Are you an individual or does your act/service consist of more than one person?
+</p>
+
+
+<div class="col-md-6">
+  <div class="row">
+  <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">Solo</div>
+  </div>
+</div>
+
+<div class="col-md-6">
+  <div class="row">
+  <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">Group</div>
+  </div>
+</div>
+
+</div>
+<!-- end col-9-->
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-3 no-paddings margin-small-top">
+</div>
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-3 no-paddings margin-small-top">
+<a href="#" class="blue-upload hundred-percent">Save</a>
+</div>
+
+<!-- CONTENT 6 -->
+
+</div>
+</div>
+</div>
+<!-- END COLLAPSABLE -->
+
+<!-- Collapse 7 -->
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default items-general-info-bottom">
+    <div class="panel-heading no-border no-paddings">
+      <h4 class="panel-title items-general-info-text">
+
+        <div class="col-md-3 no-paddings margin-bottom-small">
+        What is your typical set list?
+        </div>
+
+        <div class="col-md-9 no-paddings mobile-margin-bottom">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="blue-button-general-info">
+        Edit
+        </a>
+        </div>
+
+      </h4>
+    </div>
+
+<div id="collapse7" class="panel-collapse collapse">
+
+<!-- CONTENT 7 -->
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-9 no-paddings margin-small-top">
+<p><span class="bold">
+This is typically a list of songs you perform at live events. This is especially important for musical acts.
+</p>
+
+<p class="bold">
+Set List
+</p>
+<p>
+11000 characters left
+</p>
+
+<textarea rows="8"></textarea>
+
+</div>
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-3 no-paddings margin-small-top">
+<a href="#" class="grey-upload hundred-percent">Edit</a>
+</div>
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-3 no-paddings margin-small-top">
+<a href="#" class="blue-upload hundred-percent">Save</a>
+</div>
+
+<div class="col-md-3">
+</div>
+
+<div class="col-md-9 no-paddings">
+<input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">This doesn’t apply to my act/service</div>
+</div>
+
+<!-- CONTENT 7 -->
+
+</div>
+</div>
+</div>
+<!-- END COLLAPSABLE -->
+
+
+  <div class="row-full">
+    <button type="button" class="back">
+    Back
+    </button>
+    <button type="button" class="next">
+    Next
+    </button>
+  </div>
+
+</div>
+<!-- col-10 -->
+</div>
+<!-- end row-interior -->
+<!-- END ROW -->
+
+
+</div>
+<!-- col-10 -->
+</div>
+<!-- end row -->
+</div>
+<!-- end container -->
+
+<div class="triangles-white">
+</div>
+
+<footer>
+
+<div class="container margin-top-footer">
+
+<div class="row">
+<div class="col-md-5">
+<div class="footer-lines"></div>
+</div>
+
+<div class="col-md-2">
+<div class="footer-logo">GIGPRO</div>
+</div>
+
+<div class="col-md-5">
+<div class="footer-lines-two"></div>
+</div>
+</div>
+
+<div class="container margin-bottom-footer">
+<div class="row">
+
+<div class="col-md-3">
+</div>
+
+
+      <div class="col-md-2">
+      <p class="white-paragraph-title">
+      The Company
+      </p>
+
+      <a href="#">
+      <p class="white-paragraph">
+      About Us
+      </p>
+      </a>
+      </div>
+
+      <div class="col-md-2">
+        <p class="white-paragraph-title">
+        Performers/Pros
+        </p>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Memberships
+        </p>
+        </a>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Testimonials
+        </p>
+        </a>
+
+      </div>
+
+      <div class="col-md-2">
+        <p class="white-paragraph-title">
+        Support
+        </p>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Party Ideas
+        </p>
+        </a>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Contact Us
+        </p>
+        </a>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Help Desk
+        </p>
+        </a>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Send Feedback
+        </p>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="two-thirds-row margin-bottom-footer">
+
+<div class="row">
+<div class="col-md-4">
+</div>
+
+<div class="col-md-4">
+<div class="wrapper">
+<div class="display-inline">
+<div class="social-circle">
+<a href="#">
+<i class="fa fa-facebook"></i>
+</a>
+</div>
+
+<div class="social-circle">
+<a href="#">
+<i class="fa fa-twitter"></i>
+</a>
+</div>
+
+<div class="social-circle">
+<a href="#">
+<i class="fa fa fa-linkedin"></i>
+</a>
+</div>
+
+<div class="social-circle">
+<a href="#">
+<i class="fa fa-pinterest-p"></i>
+</a>
+</div>
+
+<div class="social-circle">
+<a href="#">
+<i class="fa fa-instagram"></i>
+</a>
+</div>
+
+</div>
+</div>
+</div>
+<!-- end wrapper -->
+
+<div class="col-md-4">
+</div>
+</div>
+
+<div class="chat">
+<a href="#">
+<i class="fa fa-commenting-o fa-2x"></i>
+</a>
+</div>
+
+</footer>
+
+
+</body>
+</html>

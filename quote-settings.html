@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<!-- Setting Viewport -->
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Circles -->
+<link rel="stylesheet" type="text/css" href="css/circle.css">
+<!-- Font Awesome -->
+<script src="https://use.fontawesome.com/d01670aec6.js"></script>
+
+
+<head/>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+        <div class="logo-text">GIGPRO</div>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="how-it-works">How It Works</a></li>
+          <li><a href="why-us">Why Us</a></li>
+          <li><a href="services">Services</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-search"></i></a></li>
+        <li><a href="#"><i class="fa fa-star-o"></i></a></li>
+        <li><a href="#"><i class="fa fa-lock"></i></a></li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="blue-banner">
+  <h1 class="banner">Edit PromoKit</h1>
+  </div>
+<!-- end header banner -->
+
+<div class="wrapper">
+<div class="nav-light-grey">
+  <div class="btn-group" role="group" aria-label="...">
+    <a href="#"><button type="button" class="btn btn-default btn-group-color active">Dashboard</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Inbox</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Edit Promokit</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Tools</button></a>
+    <a href="#"><button type="button" class="btn btn-default no-right btn-group-color">Account</button></a>
+  </div>
+</div>
+</div>
+
+<div class="wrapper">
+<div class="nav-light-grey dark-grey">
+  <div class="btn-group" role="group" aria-label="...">
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">General Info</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Media</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Details</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color active">Quote Settings</button></a>
+    <a href="#"><button type="button" class="btn btn-default btn-group-color">Calendar</button></a>
+  </div>
+</div>
+</div>
+
+<div class="container margin-top">
+  <div class="row">
+
+  <div class="col-md-2">
+  <div class="rounded-box-outline">
+
+  <div class="wrapper">
+  <div class="rounded-box-title-grey">
+  Profile completed:
+  </div>
+
+  <div class="wrapper-center">
+  <div class="c100 p12 small">
+  <div class="slice">
+      <div class="bar"></div>
+      <div class="fill"></div>
+  </div>
+  </div>
+  </div>
+
+  <div class="rounded-box-percentage">
+  12%
+  </div>
+
+  <i class="fa fa-pencil"></i>
+
+  <div class="rounded-box-profile">
+  View profile
+  </div>
+
+  </div>
+  <!-- wrapper -->
+
+</div>
+<!-- rounded-box -->
+
+<div class="calendar-box">
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading no-paddings" role="tab" id="headingOne">
+
+      <h4 class="panel-title listTitle-rounded-box">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          General Info
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body panel-promokit">
+
+      <ul class="u-list-group-promokit">
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Profile photo</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-green"></i>PromoKit Location</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>PromoKit Travel Distance</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Act/Service Name</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Main Category</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Add Category</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Event Type</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Request review</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Open your travel</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>Gender</li>
+        <li class="list-group-promokit"><i class="fa fa-check fa-magenta"></i>DOB</li>
+        <li class="list-group-promokit"><i class="fa fa-lock fa-lock-promokit fa-magenta"></i>Performing since</li>
+        <li class="list-group-promokit"><i class="fa fa-exclamation-triangle fa-magenta"></i>Artist’s Manager</li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title listTitle-rounded-box">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Media
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body panel-promokit">
+      Media Content
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title listTitle-rounded-box">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Details
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body panel-promokit">
+      Details Content
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title listTitle-rounded-box">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+        Quote Settings
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body panel-promokit">
+      Quote Settings Content
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title listTitle-rounded-box">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+          Calendar
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+      <div class="panel-body panel-promokit">
+      Calendar Content
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- end of the list-group -->
+</div>
+<!-- calendar-box -->
+</div>
+<!-- col-2 -->
+
+<div class="col-md-10">
+
+  <div class="col-md-12 no-paddings">
+  <div class="rounded-title-blue-title">
+  Quote Settings
+  </div>
+  </div>
+  <!-- col-12 -->
+
+  <div class="row-grey-line">
+  <div class="col-md-3 margin-small-top">
+  <div class="promokit-icon4b"></div>
+  <h4 class="bold">Biography</h4>
+  </div>
+
+  <div class="col-md-9 no-paddings margin-small-top">
+  <p class="bold">
+  Set default quote settings for the quotes you send to potential clients. You may modify these settings at any time (including on the quote form itself).
+  </p>
+  </div>
+  </div>
+
+  <!-- Collapse 2 -->
+
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default items-general-info-bottom">
+      <div class="panel-heading no-border no-paddings">
+        <h4 class="panel-title items-general-info-text">
+
+          <div class="col-md-3 no-paddings padding-bottom">
+          Cancellation Policy
+          </div>
+
+          <div class="col-md-9 no-paddings mobile-margin-bottom">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="blue-button-general-info">
+          Edit
+          </a>
+          </div>
+
+        </h4>
+      </div>
+
+      <div id="collapse1" class="panel-collapse collapse in">
+
+      <div class="col-md-3">
+      </div>
+
+      <div class="col-md-9 margin-small-top no-paddings-float-right">
+      Your cancellation policy settings determine what happens to the deposit and balance payment in the event of an unexpected client cancellation. The policy you choose will be displayed to the client at the time of booking. <span class="bold blue">Read more about cancellation policies.</span>
+      <br><br>
+      When a booking occurs on GigSalad, we collect the deposit and the balance in one transaction. If you select a refundable deposit, we will hold the deposit until the end of your cancellation window. The balance will be sent to you 1 business day after the event.
+      <br><br>
+      <span class="bold">Select Your Policy</span>
+
+      <div class="row no-margins ">
+      <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit bold">Use the default cancellation policy</div>
+      </div>
+      <div class="row no-margins">
+      <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit bold">Arabic</div>
+      </div>
+
+      <div class="col-md-1">
+      </div>
+
+      <div class="col-md-11 margin-small-top-small">
+
+      <div class="row no-margins margin-top">
+      <span class="bold">• Would you like your deposits to be refundable?</span>
+      </div>
+
+      <div class="margin-bottom-input">
+      <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">Yes</div>
+      <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">No (recommended)</div>
+      </div>
+      </div>
+
+      <div class="col-md-1">
+      </div>
+
+      <div class="col-md-11 margin-small-top">
+        <p>
+        The deposit will be refunded if the client cancels at least
+        </p>
+        <select class="choose">
+         <option selected>15 days</option>
+         <option>7 days</option>
+         <option>4 days</option>
+        </select>
+        <p>
+        before the event.
+        </p>
+
+        <p class="small">
+        <span class="bold">Please note: </span>Selecting a refundable deposit means that GigSalad will hold the deposit amount until the end of the cancellation window you choose above. (Example: If you select 7 days before the event, we will not pay out the deposit until 6 days before the event.)
+        </p>
+
+        <div class="row no-margins margin-small-top">
+        <span class="bold">• Would you like your balance payments to be refundable?</span>
+        </div>
+
+        <div class="margin-bottom-input">
+        <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">Yes (recommended)</div>
+        <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">No</div>
+        </div>
+
+        <div class="col-md-12 margin-small-top no-paddings">
+          <p>
+          The balance payment will be refunded if the client cancels at least
+          </p>
+
+          <select class="choose">
+           <option selected>Anytime</option>
+           <option>7 days</option>
+           <option>4 days</option>
+          </select>
+
+          <p>
+          before the event.
+          </p>
+          </div>
+
+          <div class="col-md-4 margin-small-top no-paddings">
+          <a href="#" class="grey-back hundred-percent">Back</a>
+          </div>
+
+          <div class="col-md-4 margin-small-top no-paddings">
+          </div>
+
+          <div class="col-md-4 margin-small-top no-paddings">
+          <a href="#" class="blue-upload hundred-percent ">Save</a>
+
+      </div>
+      <!-- COL 11 -->
+
+
+      </div>
+
+      <!-- CONTENT 1 -->
+
+      </div>
+    </div>
+  </div>
+  <!-- END COLLAPSABLE -->
+
+  <!-- Collapse 2 -->
+
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default items-general-info-bottom">
+      <div class="panel-heading no-border no-paddings">
+        <h4 class="panel-title items-general-info-text">
+
+          <div class="col-md-3 no-paddings margin-bottom-small">
+          Additional Terms
+          </div>
+
+          <div class="col-md-9 no-paddings mobile-margin-bottom">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="blue-button-general-info">
+          Edit
+          </a>
+          </div>
+
+        </h4>
+      </div>
+
+  <div id="collapse2" class="panel-collapse collapse">
+
+  <!-- CONTENT 2 -->
+
+  <div class="col-md-3">
+  </div>
+
+  <div class="col-md-9 no-paddings margin-small-top">
+  <p><span class="bold">
+  What are your additional terms?
+  </span>
+  </p>
+  <p>
+  Your additional terms define the requirements and conditions for a client to book your service.<br>
+  </p>
+  <p><span class="bold">
+  Additional Terms (optional)
+  </p>
+  <textarea rows="8"></textarea>
+
+  </div>
+
+  <div class="col-md-3">
+  </div>
+
+  <div class="col-md-3 no-paddings margin-small-top">
+  <a href="#" class="grey-upload hundred-percent">Back</a>
+  </div>
+
+  <div class="col-md-3">
+  </div>
+
+  <div class="col-md-3 no-paddings margin-small-top">
+  <a href="#" class="blue-upload hundred-percent">Save</a>
+  </div>
+
+  <!-- CONTENT 2 -->
+
+  </div>
+  </div>
+  </div>
+  <!-- END COLLAPSABLE -->
+
+  <!-- Collapse 3 -->
+
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default items-general-info-bottom">
+      <div class="panel-heading no-border no-paddings">
+        <h4 class="panel-title items-general-info-text">
+
+          <div class="col-md-3 no-paddings margin-bottom-small">
+          Sales Tax
+          </div>
+
+          <div class="col-md-9 no-paddings mobile-margin-bottom">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="blue-button-general-info">
+          Edit
+          </a>
+          </div>
+
+        </h4>
+      </div>
+
+  <div id="collapse3" class="panel-collapse collapse">
+
+  <!-- CONTENT 2 -->
+
+  <div class="col-md-3">
+  </div>
+
+  <div class="col-md-9 no-paddings margin-small-top">
+  <p><span class="bold">
+  What is the sales tax you charge for a gig?
+  </span>
+  </p>
+  <p>
+  Some GigPro members charge their clients sales tax. Please consult with your tax professional to see if sales tax is something you should itemize in your booking agreements. The amount you indicate will be automatically included in your quotes.
+  </p>
+  <br>
+  <p><span class="bold">
+  Sales Tax (optional)
+  </p>
+
+  <div class="margin-bottom">
+  <select class="choose">
+   <option selected>10%</option>
+   <option>20%</option>
+   <option>30%</option>
+  </select>
+  </div>
+
+  </div>
+
+  <div class="col-md-3">
+  </div>
+
+  <div class="col-md-3 no-paddings margin-small-top">
+  <a href="#" class="grey-upload hundred-percent">Back</a>
+  </div>
+
+  <div class="col-md-3">
+  </div>
+
+  <div class="col-md-3 no-paddings margin-small-top">
+  <a href="#" class="blue-upload hundred-percent">Save</a>
+  </div>
+
+  <!-- CONTENT 3 -->
+
+  </div>
+  </div>
+  </div>
+  <!-- END COLLAPSABLE -->
+
+  <!-- Collapse 4 -->
+
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default items-general-info-bottom">
+      <div class="panel-heading no-border no-paddings">
+        <h4 class="panel-title items-general-info-text">
+
+          <div class="col-md-3 no-paddings margin-bottom-small">
+          Agreement Expiration
+          </div>
+
+          <div class="col-md-9 no-paddings mobile-margin-bottom">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="blue-button-general-info">
+          Edit
+          </a>
+          </div>
+
+        </h4>
+      </div>
+
+  <div id="collapse4" class="panel-collapse collapse">
+
+  <!-- CONTENT 4 -->
+
+  <div class="col-md-3">
+  </div>
+
+  <div class="col-md-9 no-paddings margin-small-top">
+  <p><span class="bold">
+  When will your quotes expire?
+  </span>
+  </p>
+  <p>
+  When sending a quote, you can choose how long before the quote will expire. Once the quote expires you can no longer be booked with that quote. This helps prevent double bookings and creates a sense of urgency for the event planner. If necessary, you can still go in and cancel the quote before it expires.
+  </p>
+  <br>
+  <p><span class="bold">
+  Your default quote will expire in:
+  </p>
+
+  <div class="margin-bottom">
+  <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">7 days</div>
+  <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">72 hours</div>
+  <input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">48 hours</div>
+  </div>
+
+
+  </div>
+
+  <div class="col-md-3">
+  </div>
+
+  <div class="col-md-3 no-paddings">
+  <a href="#" class="grey-upload hundred-percent">Back</a>
+  </div>
+
+  <div class="col-md-3">
+  </div>
+
+  <div class="col-md-3 no-paddings">
+  <a href="#" class="blue-upload hundred-percent">Save</a>
+  </div>
+
+  <!-- CONTENT 4 -->
+
+  </div>
+  </div>
+  </div>
+  <!-- END COLLAPSABLE -->
+
+  <!-- Collapse 5 -->
+
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default items-general-info-bottom">
+      <div class="panel-heading no-border no-paddings">
+        <h4 class="panel-title items-general-info-text">
+
+          <div class="col-md-3 no-paddings margin-bottom-small">
+          Saved Messages
+          </div>
+
+          <div class="col-md-9 no-paddings mobile-margin-bottom">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="blue-button-general-info">
+          Edit
+          </a>
+          </div>
+
+        </h4>
+      </div>
+
+  <div id="collapse5" class="panel-collapse collapse">
+
+  <!-- CONTENT 2 -->
+
+  <div class="col-md-3">
+  </div>
+
+  <div class="col-md-9 no-paddings margin-small-top">
+  <p><span class="bold">
+  Would you like to save a message for replying to requests?
+  </span>
+  </p>
+  <p>
+  Saved messages are a great way to store and send frequently used responses, saving time for you and your client! Set up as many saved messages as you’d like. You’ll have the opportunity to edit or customize your messages before sending.
+  </p>
+
+  <p><span class="bold">
+  Title
+  </p>
+  <input type="text" class="contact-us" name="title">
+
+  <br><br>
+
+  <p><span class="bold">
+  Messages
+  </p>
+  <textarea rows="4" placeholder="Saved messages are a great way to store and send frequently used responses, saving time for you and your client! Set up as many saved messages as you’d like. You’ll have the opportunity to edit or customize your messages before sending."></textarea>
+
+  </div>
+
+  <div class="col-md-3">
+  </div>
+
+  <div class="col-md-3 no-paddings margin-small-top">
+  </div>
+
+  <div class="col-md-3">
+  </div>
+
+  <div class="col-md-3 no-paddings margin-small-top">
+  <a href="#" class="blue-upload hundred-percent">Add Message</a>
+  </div>
+
+  <div class="col-md-3">
+  </div>
+  <div class="col-md-9 no-padding-left"><p><span class="bold">Saved Messages</p>
+  </div>
+
+<!-- edit -->
+<div class="row-full">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-6 no-padding-left">
+      <p>
+        <span class="bold">
+        Title
+        </span>
+      </p>
+      <p>
+      Saved messages are a great way to store and send frequently used responses, saving time for you and your client! Set up as many saved messages as you’d like. You’ll have the opportunity to edit or customize your messages before sending.
+      </p>
+    </div>
+    <div class="col-md-3">
+    <a href="#" class="edit">Edit</a>
+    </div>
+</div>
+<!-- edit -->
+
+<!-- edit -->
+<div class="row-full margin-top">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-6 no-padding-left">
+      <p>
+        <span class="bold">
+        Title
+        </span>
+      </p>
+      <p>
+      Saved messages are a great way to store and send frequently used responses, saving time for you and your client! Set up as many saved messages as you’d like. You’ll have the opportunity to edit or customize your messages before sending.
+      </p>
+    </div>
+    <div class="col-md-3">
+    <a href="#" class="edit">Edit</a>
+    </div>
+</div>
+<!-- edit -->
+
+  <!-- CONTENT 2 -->
+
+  </div>
+  </div>
+  </div>
+  <!-- END COLLAPSABLE -->
+
+
+
+  <div class="row-full">
+    <button type="button" class="back">
+    Back
+    </button>
+    <button type="button" class="next">
+    Next
+    </button>
+  </div>
+
+</div>
+<!-- col-10 -->
+</div>
+<!-- end row-interior -->
+<!-- END ROW -->
+
+
+</div>
+<!-- col-10 -->
+</div>
+<!-- end row -->
+</div>
+<!-- end container -->
+
+<div class="triangles-white">
+</div>
+
+<footer>
+
+<div class="container margin-top-footer">
+
+<div class="row">
+<div class="col-md-5">
+<div class="footer-lines"></div>
+</div>
+
+<div class="col-md-2">
+<div class="footer-logo">GIGPRO</div>
+</div>
+
+<div class="col-md-5">
+<div class="footer-lines-two"></div>
+</div>
+</div>
+
+<div class="container margin-bottom-footer">
+<div class="row">
+
+<div class="col-md-3">
+</div>
+
+
+      <div class="col-md-2">
+      <p class="white-paragraph-title">
+      The Company
+      </p>
+
+      <a href="#">
+      <p class="white-paragraph">
+      About Us
+      </p>
+      </a>
+      </div>
+
+      <div class="col-md-2">
+        <p class="white-paragraph-title">
+        Performers/Pros
+        </p>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Memberships
+        </p>
+        </a>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Testimonials
+        </p>
+        </a>
+
+      </div>
+
+      <div class="col-md-2">
+        <p class="white-paragraph-title">
+        Support
+        </p>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Party Ideas
+        </p>
+        </a>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Contact Us
+        </p>
+        </a>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Help Desk
+        </p>
+        </a>
+
+        <a href="#">
+        <p class="white-paragraph">
+        Send Feedback
+        </p>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="two-thirds-row margin-bottom-footer">
+
+<div class="row">
+<div class="col-md-4">
+</div>
+
+<div class="col-md-4">
+<div class="wrapper">
+<div class="display-inline">
+<div class="social-circle">
+<a href="#">
+<i class="fa fa-facebook"></i>
+</a>
+</div>
+
+<div class="social-circle">
+<a href="#">
+<i class="fa fa-twitter"></i>
+</a>
+</div>
+
+<div class="social-circle">
+<a href="#">
+<i class="fa fa fa-linkedin"></i>
+</a>
+</div>
+
+<div class="social-circle">
+<a href="#">
+<i class="fa fa-pinterest-p"></i>
+</a>
+</div>
+
+<div class="social-circle">
+<a href="#">
+<i class="fa fa-instagram"></i>
+</a>
+</div>
+
+</div>
+</div>
+</div>
+<!-- end wrapper -->
+
+<div class="col-md-4">
+</div>
+</div>
+
+<div class="chat">
+<a href="#">
+<i class="fa fa-commenting-o fa-2x"></i>
+</a>
+</div>
+
+</footer>
+
+
+</body>
+</html>

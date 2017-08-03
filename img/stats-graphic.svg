@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="686px" height="116px" viewBox="0 0 686 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>stats-graphic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="46.839554%" y1="-103.875496%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4F32C5" offset="0%"></stop>
+            <stop stop-color="#FF2D55" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="stats-graphic" fill="url(#linearGradient-1)">
+            <path d="M37,117.222062 C37,117.222062 70.1135036,107.436844 108.788767,108.196035 C147.464031,108.955226 152.111071,93.3900895 177.159021,93.0323091 C202.206972,92.6745288 204.447032,96.3714991 249.802417,96.281679 C295.157801,96.1918588 285.553249,66.6763095 316.463415,66.6763095 C347.37358,66.6763095 360.707115,87.3313687 394.234579,88.338775 C427.762043,89.3461812 487.876456,19.5797514 518.155665,20.1020087 C548.434874,20.624266 570.087681,52.9464357 601.054599,53.6788302 C616.655242,54.047799 623.746915,41.645266 632.599572,29.3990793 C641.319236,17.3368672 651.747371,5.42633911 673.697994,6.02140617 C717.934034,7.22061634 690.750276,118.00075 690.750276,118.00075 L37,117.222062 Z" id="Path-34-Copy-2"></path>
+        </g>
+    </g>
+</svg>

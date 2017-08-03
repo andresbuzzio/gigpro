@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="32px" viewBox="0 0 61 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>stats</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="stats">
+            <g id="002-analytics" transform="translate(3.000000, 2.000000)">
+                <polygon id="Shape" fill="#FFFFFF" points="6.93655686 24.4731335 4.65439962 22.716473 19.6535778 3.27309393 34.2623869 17.4014489 48.1054722 6.33598917 49.9071753 8.58811802 34.0822166 21.2450822 19.9688758 7.59718132"></polygon>
+                <ellipse id="Oval" fill="#FFFFFF" cx="49.0063238" cy="7.46205359" rx="5.37508086" ry="5.37508086"></ellipse>
+                <ellipse id="Oval" fill="#FF2D55" cx="49.0063238" cy="7.46205359" rx="3.12295201" ry="3.12295201"></ellipse>
+                <ellipse id="Oval" fill="#FFFFFF" cx="34.1723018" cy="18.7977688" rx="5.37508086" ry="5.37508086"></ellipse>
+                <ellipse id="Oval" fill="#FF2D55" cx="34.1723018" cy="18.7977688" rx="3.12295201" ry="3.12295201"></ellipse>
+                <ellipse id="Oval" fill="#FFFFFF" cx="19.8037197" cy="5.43513763" rx="5.37508086" ry="5.37508086"></ellipse>
+                <ellipse id="Oval" fill="#FF2D55" cx="19.8037197" cy="5.43513763" rx="3.12295201" ry="3.12295201"></ellipse>
+                <ellipse id="Oval" fill="#FFFFFF" cx="5.45015182" cy="23.6023104" rx="5.37508086" ry="5.37508086"></ellipse>
+                <ellipse id="Oval" fill="#FF2D55" cx="5.45015182" cy="23.6023104" rx="3.12295201" ry="3.12295201"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
