@@ -3664,8 +3664,18 @@ border-right:15px solid #fff;
 .choose-membership {
 font-family: Circular-Bold;
 font-size: 26px;
+line-height: 30px;
 text-align: left;
 color:#484848;
+}
+
+.choose-membership-questions {
+font-family: Circular-Bold;
+font-size: 26px;
+line-height: 30px;
+text-align: left;
+color:#484848;
+margin-top: 15px;
 }
 
 .text-membership {
@@ -3749,6 +3759,7 @@ visibility: hidden;
 }
 
 .small-column {
+margin-bottom: 20px;
 font-size: 14px;
 padding: 8px;
 width: 100%;
@@ -3757,9 +3768,20 @@ border: 1px solid #FF2D55;
 border-top: 15px solid #FF2D55;
 }
 
+.small-column-blue {
+margin-bottom: 20px;
+font-size: 14px;
+padding: 8px;
+width: 100%;
+overflow: hidden;
+border: 1px solid #5AC8FA;
+border-top: 15px solid #5AC8FA;
+}
+
 .no-margin-p {
 margin: 0;
 line-height: 18px;
+font-size: 12px;
 }
 
 .special-padding {
@@ -3771,16 +3793,164 @@ margin-bottom: -10px;
 overflow: hidden;
 }
 
-i.grey-star {
+i.grey-star, i.fa-star-o.grey-star {
 color: #999;
+font-size: 14px !important;
 }
 
-i.cyan-star {
+i.cyan-star, i.fa-star-o.cyan-star {
 color:#5AC8FA;
+font-size: 14px !important;
 }
 
-i.magenta-star {
+i.magenta-star, i.fa-star-o.magenta-star {
 color:#FF2D55;
+font-size: 14px !important;
+}
+
+p.member-items {
+padding-left: 4px;
+font-size: 12px;
+line-height: 20px;
+}
+
+p.member-items-grey {
+padding-left: 4px;
+font-size: 12px;
+line-height: 20px;
+background:#F2F2F2;
+}
+
+.row-grey {
+background:#F2F2F2;
+}
+
+.col-md-2.grey-no-border {
+background:#d4d4d4;
+border-right:15px solid #F2F2F2;
+}
+
+.col-md-2.cyan-no-border {
+background: rgba(90, 200, 250, 0.4);
+border-right:15px solid #F2F2F2;
+}
+
+.col-md-2.magenta-no-border {
+background: rgba(255, 45, 85, 0.4);
+border-right:15px solid #fff;
+}
+
+button.select-member-grey {
+background: #999;
+border: 0;
+border-radius: 10px;
+color:#fff;
+font-size: 14px;
+text-align: center;
+padding: 6px 12px;
+margin:10px 0 20px 0;
+}
+
+button.select-member-grey:hover {
+background: #666;
+}
+
+button.select-member-cyan {
+background: #5AC8FA;
+border: 0;
+border-radius: 10px;
+color:#fff;
+font-size: 14px;
+text-align: center;
+padding: 6px 12px;
+margin:10px 0 20px 0;
+}
+
+button.select-member-cyan:hover {
+background: #38A6D8;
+}
+
+button.select-member-magenta {
+background:#FF2D55;
+border: 0;
+border-radius: 10px;
+color:#fff;
+font-size: 14px;
+text-align: center;
+padding: 6px 12px;
+margin:10px 0 20px 0;
+}
+
+button.select-member-magenta.questions {
+background:#FF2D55;
+border: 0;
+border-radius: 10px;
+color:#fff;
+font-size: 14px;
+text-align: center;
+padding: 6px 12px;
+margin:10px 0 10px 0;
+}
+
+button.select-member-magenta:hover {
+background:#EE0B33;
+}
+
+.container-membership-prices {
+border: 1px solid #bbb;
+border-radius:15px;
+padding: 20px 0;
+}
+
+.circle-price-grey {
+margin:0 auto;
+width: 120px;
+height: 120px;
+background: #999;
+border-radius: 50%;
+}
+
+.circle-price-cyan {
+margin:0 auto;
+width: 120px;
+height: 120px;
+background: #5AC8FA;
+border-radius: 50%;
+}
+
+.circle-price-magenta {
+margin:0 auto;
+width: 120px;
+height: 120px;
+background: #FF2D55;
+border-radius: 50%;
+}
+
+.circle-price-text {
+padding-top: 45px;
+font-family: Circular-Bold;
+font-size: 20px;
+color:#fff;
+text-align: center;
+}
+
+.circle-price-text-small-top {
+padding-top: 35px;
+font-family: Circular-Bold;
+font-size: 16px;
+color:#fff;
+text-align: center;
+}
+
+.circle-price-text-small {
+font-family: Circular-Book;
+font-size: 16px;
+color:#fff;
+text-align: center;
+}
+
+.col-md-6.border-left {
+border-left:1px solid #BBB;
 }
 
 
@@ -4162,6 +4332,32 @@ background-repeat: no-repeat;
 
     .margin-less {
     padding-left: 0;
+    }
+
+    p.member-items {
+    margin-top: 20px;
+    }
+
+    p.member-items-grey {
+    margin-top: 20px;
+    background: #fff;
+    }
+
+    .col-md-2.grey-no-border {
+    border-right:15px solid #fff;
+    }
+
+    .col-md-2.cyan-no-border {
+    border-right:15px solid #fff;
+    }
+
+    .col-md-2.magenta-no-border {
+    border-right:15px solid #fff;
+    }
+
+    .col-md-6.border-left {
+    border-left:0;
+    margin-left: -15px;
     }
 
 }
