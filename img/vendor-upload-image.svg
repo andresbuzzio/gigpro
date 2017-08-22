@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="245px" height="147px" viewBox="0 0 245 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>vendor-upload-image</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.338330139" width="200.056664" height="119.955755"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="200.056664" height="119.955755" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="vendor-upload-image" stroke="#DDDDDD">
+            <g id="Group-13" transform="translate(22.136475, 13.109340)">
+                <g id="Group-18" transform="translate(0.217552, -0.000000)">
+                    <use id="Rectangle-8" mask="url(#mask-2)" stroke-width="14" xlink:href="#path-1"></use>
+                    <polyline id="Path-7" stroke-width="7" points="3.78926771 117.861146 61.2267887 72.6080538 93.2187478 91.9931919 154.797577 35.5154594 196.779694 72.6080538"></polyline>
+                </g>
+            </g>
+            <ellipse id="Oval-7" stroke-width="7" cx="64.6256178" cy="52.6508437" rx="18.5418197" ry="18.5418197"></ellipse>
+        </g>
+    </g>
+</svg>
