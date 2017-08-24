@@ -16,12 +16,18 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+<!-- Slider JavaScript -->
+<script src="js/bootstrap-slider.js">
+</script>
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- CSS Slider-->
+<link rel="stylesheet" type="text/css" href="css/slider.css">
 <!-- Font Awesome -->
 <script src="https://use.fontawesome.com/d01670aec6.js"></script>
 
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
 <head/>
 
@@ -64,16 +70,262 @@
 <h1 class="banner">New Delhi, Magicians</h1>
 </div>
 
+<div class="breadcrumbs">
+<p class="bold align-center margin-smallest-top">
+  <span class="magenta">Magicians /New Delhi</span> / New Delhi Magicians
+</p>
+</div>
 
 <div class="container padding-top-start">
 <div class="row">
 
-  <div class="col-md-3 grey">
-    cdscds<br>cdscds<br>cdscds<br>cdscds<br>cdscds<br>
+  <div class="col-md-3">
+
+    <div class="row-full">
+    <p class="bold">Top Magicians Near New York</p>
+    <p class="magenta">(433) Refine</p><i class="fa fa-chevron-down fa-left"></i>
+    </div>
+
+    <div class="row-full">
+    <div class="grey">
+
+      <!-- /Subcategory? -->
+      <div class="wrapper margin-box-top">
+        <div class="its-wrapped-left">
+        <i class="fa fa-bars fa-bars-ss"></i>
+        <p class="bold bold-left">Subcategory?</p>
+        </div>
+      </div>
+
+      <div class="its-wrapped-left">
+      <div class="col-md-6 no-padding-left">
+        <input type="checkbox" class="squaredThree">
+        <p class="align-left-pad">Impersonators</p>
+      </div>
+
+
+      <div class="col-md-6 no-padding-left">
+        <input type="checkbox" class="squaredThree">
+        <p class="align-left-pad">Realiy Show</p>
+      </div>
+      </div>
+      <!-- /its-wrapped-left -->
+
+      <div class="its-wrapped-left">
+      <div class="col-md-6 no-padding-left">
+        <input type="checkbox" class="squaredThree">
+        <p class="align-left-pad">Mimicry</p>
+      </div>
+
+
+      <div class="col-md-6 no-padding-left">
+        <input type="checkbox" class="squaredThree">
+        <p class="align-left-pad">Subcategory?</p>
+      </div>
+      </div>
+      <!-- /its-wrapped-left -->
+
+      <!-- /Language -->
+      <div class="wrapper margin-box-top">
+        <div class="its-wrapped-left">
+        <i class="fa fa-bars fa-bars-ss"></i>
+        <p class="bold bold-left">Language</p>
+        </div>
+
+        <div class="its-wrapped-left">
+        <div class="col-md-6 no-padding-left">
+          <input type="checkbox" class="squaredThree">
+          <p class="align-left-pad">English</p>
+        </div>
+
+
+        <div class="col-md-6 no-padding-left">
+          <input type="checkbox" class="squaredThree">
+          <p class="align-left-pad">Hindi</p>
+        </div>
+        </div>
+        <!-- /its-wrapped-left -->
+
+        <div class="its-wrapped-left">
+        <div class="col-md-6 no-padding-left">
+          <input type="checkbox" class="squaredThree">
+          <p class="align-left-pad">English</p>
+        </div>
+
+
+        <div class="col-md-6 no-padding-left">
+          <input type="checkbox" class="squaredThree">
+          <p class="align-left-pad">Hindi</p>
+        </div>
+        </div>
+        <!-- /its-wrapped-left -->
+
+      </div>
+
+      <!-- /Event Type? -->
+      <div class="wrapper margin-box-top">
+        <div class="its-wrapped">
+        <p class="bold bold-left">Event Type?</p>
+        </div>
+
+        <select class="choose-event-type">
+         <option selected>Any (event type)</option>
+         <option>Event Type 1</option>
+         <option>Event Type 2</option>
+         <option>Event Type 3</option>
+        </select>
+      </div>
+
+      <!-- /Budget -->
+      <div class="wrapper margin-box-top">
+        <div class="its-wrapped margin-box-top">
+        <p class="bold bold-left">Budget?</p>
+        </div>
+
+        <!-- Slider -->
+        <div class="slider-container">
+        <div class="slider slider-horizontal">
+          <div class="slider-track">
+            <div class="slider-handle round">
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- Slider -->
+
+        <div class="budget">₹</div>
+        <div class="budget">₹₹</div>
+        <div class="budget">₹₹₹</div>
+
+      </div>
+      <!-- /Budget -->
+
+
+      <!-- /Select Gender -->
+      <div class="wrapper margin-box-top">
+        <div class="its-wrapped margin-box-top">
+        <p class="bold bold-left">Select Gender</p>
+        </div>
+
+        <select class="choose-event-type">
+         <option selected>Select Gender</option>
+         <option>Male</option>
+         <option>Female</option>
+        </select>
+      </div>
+
+      <!-- /Only Vendors -->
+      <div class="wrapper margin-box-top">
+        <div class="its-wrapped margin-box-top">
+        <p class="bold bold-left">
+          Show only vendors <br>with special offers?
+        </p>
+        </div>
+
+      <!-- Rounded switch -->
+       <div class="slider-container">
+       <label class="switch">
+        <input type="checkbox">
+        <span class="slider-switch round"></span>
+       </label>
+       </div>
+
+       <div class="no-switch">No</div>
+       <div class="yes-switch">Yes</div>
+
+      </div>
+
+      <div class="slider-container">
+      <a href="#" class="grey-upload grey-upload-ss">Clear</a>
+      </div>
+
+      <div class="slider-container">
+      <a href="#" class="blue-upload blue-upload-ss">Apply</a>
+      </div>
+
+      <div class="container-magenta">
+      <p class="bold white">How it’s done?</p>
+      </div>
+
+      <!-- IMAGE SS VENDOR -->
+      <div class="wrapper">
+      <div class="itswrapped">
+      <div class="image-ss-vendor"><img src="img/image-ss-vendor1.svg"></div>
+      </div>
+      </div>
+
+      <div class="wrapper">
+      <div class="itswrapped">
+      <p class="bold align-center">Explore your options</p>
+      <p class="align-center">
+      Browse through a variety of vendors in your area. See photos, videos and verified reviews from real clients.
+      </p>
+      </div>
+      </div>
+      <!-- IMAGE SS VENDOR -->
+
+      <!-- IMAGE SS VENDOR -->
+      <div class="wrapper">
+      <div class="itswrapped">
+      <div class="image-ss-vendor"><img src="img/image-ss-vendor2.svg"></div>
+      </div>
+      </div>
+
+      <div class="wrapper">
+      <div class="itswrapped">
+      <p class="bold align-center">Explore your options</p>
+      <p class="align-center">
+      Browse through a variety of vendors in your area. See photos, videos and verified reviews from real clients.
+      </p>
+      </div>
+      </div>
+      <!-- IMAGE SS VENDOR -->
+
+      <!-- IMAGE SS VENDOR -->
+      <div class="wrapper">
+      <div class="itswrapped">
+      <div class="image-ss-vendor"><img src="img/image-ss-vendor3.svg"></div>
+      </div>
+      </div>
+
+      <div class="wrapper">
+      <div class="itswrapped">
+      <p class="bold align-center">Explore your options</p>
+      <p class="align-center">
+      Browse through a variety of vendors in your area. See photos, videos and verified reviews from real clients.
+      </p>
+      </div>
+      </div>
+      <!-- IMAGE SS VENDOR -->
+
+      <!-- IMAGE SS VENDOR -->
+      <div class="wrapper">
+      <div class="itswrapped">
+      <div class="image-ss-vendor"><img src="img/image-ss-vendor4.svg"></div>
+      </div>
+      </div>
+
+      <div class="wrapper">
+      <div class="itswrapped">
+      <p class="bold align-center">Explore your options</p>
+      <p class="align-center">
+      Browse through a variety of vendors in your area. See photos, videos and verified reviews from real clients.
+      </p>
+      </div>
+      </div>
+      <!-- IMAGE SS VENDOR -->
+
+
+    </div>
+    <!-- /.grey row-full -->
+    </div>
+    <!-- /.grey -->
   </div>
+  <!-- /.container-col-3 -->
 
-  <div class="col-md-9">
+<div class="col-md-9">
 
+<div class="row-full">
     <div class="col-md-4">
       <div class="box-ss">
 
@@ -184,231 +436,265 @@
 
       </div>
     </div>
-
-    <div class="col-md-4">
-      <div class="box-ss">
-
-      <div class="photo-ss-small">
-        <div class="caption-ss-small">
-            <div class="ss-featured-text">Featured</div>
-        </div>
-      </div>
-
-      <div class="title-ss">Roberta Clark</div>
-
-      <div class="wrapper padding-bottom-stars">
-        <i class="fa fa-star orange-star"></i>
-        <i class="fa fa-star orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-      </div>
-
-      <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
-      <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
-
-      <p class="profession">
-      Comedian<br>
-      NY City, US
-      </p>
-
-      <div class="wrapper">
-      <button class="add-favourites">
-        <i class="fa fa-heart"></i>
-        Add to favourites
-      </button>
-      </div>
-
-      <div class="wrapper">
-      <button class="get-quote">Get a free quote</button>
-      </div>
-
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="box-ss">
-
-      <div class="photo-ss">
-        <div class="caption-ss">
-          <div class="wrapper">
-            <div class="its-wrapped">
-            <div class="verified-ss"><i class="fa fa-bolt"></i></div>
-            <p class="verified-text">50 verified bookings</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="title-ss">Roberta Clark</div>
-
-      <div class="wrapper padding-bottom-stars">
-        <i class="fa fa-star orange-star"></i>
-        <i class="fa fa-star orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-      </div>
-
-      <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
-      <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
-
-      <p class="profession">
-      Comedian<br>
-      NY City, US
-      </p>
-
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="box-ss">
-
-      <div class="photo-ss">
-        <div class="caption-ss">
-          <div class="wrapper">
-            <div class="its-wrapped">
-            <div class="verified-ss"><i class="fa fa-bolt"></i></div>
-            <p class="verified-text">50 verified bookings</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="title-ss">Roberta Clark</div>
-
-      <div class="wrapper padding-bottom-stars">
-        <i class="fa fa-star orange-star"></i>
-        <i class="fa fa-star orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-      </div>
-
-      <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
-      <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
-
-      <p class="profession">
-      Comedian<br>
-      NY City, US
-      </p>
-
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="box-ss">
-
-      <div class="photo-ss-small">
-        <div class="caption-ss-small">
-            <div class="ss-featured-text">Featured</div>
-        </div>
-      </div>
-
-      <div class="title-ss">Roberta Clark</div>
-
-      <div class="wrapper padding-bottom-stars">
-        <i class="fa fa-star orange-star"></i>
-        <i class="fa fa-star orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-      </div>
-
-      <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
-      <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
-
-      <p class="profession">
-      Comedian<br>
-      NY City, US
-      </p>
-
-      <div class="wrapper">
-      <button class="add-favourites">
-        <i class="fa fa-heart"></i>
-        Add to favourites
-      </button>
-      </div>
-
-      <div class="wrapper">
-      <button class="get-quote">Get a free quote</button>
-      </div>
-
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="box-ss">
-
-      <div class="photo-ss">
-        <div class="caption-ss">
-          <div class="wrapper">
-            <div class="its-wrapped">
-            <div class="verified-ss"><i class="fa fa-bolt"></i></div>
-            <p class="verified-text">50 verified bookings</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="title-ss">Roberta Clark</div>
-
-      <div class="wrapper padding-bottom-stars">
-        <i class="fa fa-star orange-star"></i>
-        <i class="fa fa-star orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-      </div>
-
-      <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
-      <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
-
-      <p class="profession">
-      Comedian<br>
-      NY City, US
-      </p>
-
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="box-ss">
-
-      <div class="photo-ss">
-        <div class="caption-ss">
-          <div class="wrapper">
-            <div class="its-wrapped">
-            <div class="verified-ss"><i class="fa fa-bolt"></i></div>
-            <p class="verified-text">50 verified bookings</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="title-ss">Roberta Clark</div>
-
-      <div class="wrapper padding-bottom-stars">
-        <i class="fa fa-star orange-star"></i>
-        <i class="fa fa-star orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-        <i class="fa fa-star-o orange-star"></i>
-      </div>
-
-      <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
-      <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
-
-      <p class="profession">
-      Comedian<br>
-      NY City, US
-      </p>
-
-      </div>
-    </div>
-
   </div>
-  <!-- end col-md-9-->
+  <!-- end row-full-->
+
+  <div class="row-full">
+      <div class="col-md-4">
+        <div class="box-ss">
+
+        <div class="photo-ss-small">
+          <div class="caption-ss-small">
+              <div class="ss-featured-text">Featured</div>
+          </div>
+        </div>
+
+        <div class="title-ss">Roberta Clark</div>
+
+        <div class="wrapper padding-bottom-stars">
+          <i class="fa fa-star orange-star"></i>
+          <i class="fa fa-star orange-star"></i>
+          <i class="fa fa-star-o orange-star"></i>
+          <i class="fa fa-star-o orange-star"></i>
+          <i class="fa fa-star-o orange-star"></i>
+        </div>
+
+        <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
+        <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
+
+        <p class="profession">
+        Comedian<br>
+        NY City, US
+        </p>
+
+        <div class="wrapper">
+        <button class="add-favourites">
+          <i class="fa fa-heart"></i>
+          Add to favourites
+        </button>
+        </div>
+
+        <div class="wrapper">
+        <button class="get-quote">Get a free quote</button>
+        </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="box-ss">
+
+        <div class="photo-ss">
+          <div class="caption-ss">
+            <div class="wrapper">
+              <div class="its-wrapped">
+              <div class="verified-ss"><i class="fa fa-bolt"></i></div>
+              <p class="verified-text">50 verified bookings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-ss">Roberta Clark</div>
+
+        <div class="wrapper padding-bottom-stars">
+          <i class="fa fa-star orange-star"></i>
+          <i class="fa fa-star orange-star"></i>
+          <i class="fa fa-star-o orange-star"></i>
+          <i class="fa fa-star-o orange-star"></i>
+          <i class="fa fa-star-o orange-star"></i>
+        </div>
+
+        <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
+        <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
+
+        <p class="profession">
+        Comedian<br>
+        NY City, US
+        </p>
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="box-ss">
+
+        <div class="photo-ss">
+          <div class="caption-ss">
+            <div class="wrapper">
+              <div class="its-wrapped">
+              <div class="verified-ss"><i class="fa fa-bolt"></i></div>
+              <p class="verified-text">50 verified bookings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-ss">Roberta Clark</div>
+
+        <div class="wrapper padding-bottom-stars">
+          <i class="fa fa-star orange-star"></i>
+          <i class="fa fa-star orange-star"></i>
+          <i class="fa fa-star-o orange-star"></i>
+          <i class="fa fa-star-o orange-star"></i>
+          <i class="fa fa-star-o orange-star"></i>
+        </div>
+
+        <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
+        <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
+
+        <p class="profession">
+        Comedian<br>
+        NY City, US
+        </p>
+
+        </div>
+      </div>
+    </div>
+    <!-- end row-full-->
+
+    <div class="row-full">
+        <div class="col-md-4">
+          <div class="box-ss">
+
+          <div class="photo-ss-small">
+            <div class="caption-ss-small">
+                <div class="ss-featured-text">Featured</div>
+            </div>
+          </div>
+
+          <div class="title-ss">Roberta Clark</div>
+
+          <div class="wrapper padding-bottom-stars">
+            <i class="fa fa-star orange-star"></i>
+            <i class="fa fa-star orange-star"></i>
+            <i class="fa fa-star-o orange-star"></i>
+            <i class="fa fa-star-o orange-star"></i>
+            <i class="fa fa-star-o orange-star"></i>
+          </div>
+
+          <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
+          <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
+
+          <p class="profession">
+          Comedian<br>
+          NY City, US
+          </p>
+
+          <div class="wrapper">
+          <button class="add-favourites">
+            <i class="fa fa-heart"></i>
+            Add to favourites
+          </button>
+          </div>
+
+          <div class="wrapper">
+          <button class="get-quote">Get a free quote</button>
+          </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="box-ss">
+
+          <div class="photo-ss">
+            <div class="caption-ss">
+              <div class="wrapper">
+                <div class="its-wrapped">
+                <div class="verified-ss"><i class="fa fa-bolt"></i></div>
+                <p class="verified-text">50 verified bookings</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="title-ss">Roberta Clark</div>
+
+          <div class="wrapper padding-bottom-stars">
+            <i class="fa fa-star orange-star"></i>
+            <i class="fa fa-star orange-star"></i>
+            <i class="fa fa-star-o orange-star"></i>
+            <i class="fa fa-star-o orange-star"></i>
+            <i class="fa fa-star-o orange-star"></i>
+          </div>
+
+          <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
+          <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
+
+          <p class="profession">
+          Comedian<br>
+          NY City, US
+          </p>
+
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="box-ss">
+
+          <div class="photo-ss">
+            <div class="caption-ss">
+              <div class="wrapper">
+                <div class="its-wrapped">
+                <div class="verified-ss"><i class="fa fa-bolt"></i></div>
+                <p class="verified-text">50 verified bookings</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="title-ss">Roberta Clark</div>
+
+          <div class="wrapper padding-bottom-stars">
+            <i class="fa fa-star orange-star"></i>
+            <i class="fa fa-star orange-star"></i>
+            <i class="fa fa-star-o orange-star"></i>
+            <i class="fa fa-star-o orange-star"></i>
+            <i class="fa fa-star-o orange-star"></i>
+          </div>
+
+          <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
+          <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
+
+          <p class="profession">
+          Comedian<br>
+          NY City, US
+          </p>
+
+          </div>
+        </div>
+      </div>
+      <!-- end row-full-->
+
+      <div class="vendors-pagination">
+      Vendors 1-27 of 450
+      </div>
+
+      <div class="wrapper">
+      <div class="itswrapped">
+        <a href="#" class="grey-upload grey-upload-load">Load more...</a>
+      </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-6">
+          <a href="#" class="blue-upload">Request Quote from all</a>
+        </div>
+        <div class="col-md-6">
+        <p><span class="bold">or visit Profile of each performer</span>
+        You can add them to favourite to later request the quote
+        </p>
+        </div>
+      </div>
+
+
+
+
+</div>
+<!-- end col-md-9-->
 
 
 </div>
@@ -568,6 +854,10 @@
 </div>
 
 </footer>
+
+<script>
+$('.slider').slider()
+</script>
 
 
 </body>

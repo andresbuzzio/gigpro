@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>image-ss-vendor</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="image-ss-vendor">
+            <g id="002-check-box" transform="translate(7.135492, 7.135492)">
+                <polygon id="Path" fill="#FF2D55" points="14.0768744 20.3971037 10.0549103 24.4190678 22.982652 37.3468095 51.710967 8.61849451 47.6890029 4.5965304 22.982652 29.3028813"></polygon>
+                <g id="check-box-outline" transform="translate(0.000000, -0.000000)" fill="#484848">
+                    <path d="M45.965304,45.965304 L5.745663,45.965304 L5.745663,5.745663 L34.473978,5.745663 L34.473978,0 L5.745663,0 C2.58554835,0 0,2.58554835 0,5.745663 L0,45.965304 C0,49.1254187 2.58554835,51.710967 5.745663,51.710967 L45.965304,51.710967 C49.1254187,51.710967 51.710967,49.1254187 51.710967,45.965304 L51.710967,22.982652 L45.965304,22.982652 L45.965304,45.965304 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
