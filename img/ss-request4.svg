@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="122px" height="82px" viewBox="0 0 122 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>ss-request</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ss-request">
+            <g id="Group-16" transform="translate(1.000000, 0.000000)">
+                <g id="Group-14-Copy-2" transform="translate(0.099951, 0.446743)">
+                    <ellipse id="Oval-4-Copy-2" fill="#5AC8FA" cx="33.4169663" cy="33.4418897" rx="33.4169663" ry="33.4169663"></ellipse>
+                    <g id="rate-star-button" transform="translate(15.390377, 16.166408)" fill="#FFFFFF">
+                        <g id="star-rate" transform="translate(-0.000000, 0.000000)">
+                            <polygon id="Shape" points="17.9161871 26.3209867 28.9645026 34.3832709 24.7840589 21.2447337 35.8323743 13.4810526 22.3952339 13.4810526 17.9161871 0.0439122234 13.4371404 13.4810526 0 13.4810526 11.0483154 21.2447337 6.86787174 34.3832709"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -799,6 +799,10 @@ img.image-how {
     font-family: Circular-Book;
     color: #484848;
 }
+span.underline {
+    text-decoration: underline;
+    cursor:pointer;
+}
 span.magenta {
     color: #FF2D55;
 }
@@ -4361,6 +4365,133 @@ overflow: auto;
 border-bottom:1px solid #999;
 }
 
+.rounded-magenta-ss {
+width: 100%;
+overflow: hidden;
+padding: 10px;
+background:#FF2D55;
+font-family: Circular-Bold;
+font-size: 27px;
+color:#fff;
+text-align: center;
+}
+
+.rounded-blue-ss {
+width: 100%;
+overflow: hidden;
+padding: 10px;
+background:#5AC8FA;
+font-family: Circular-Bold;
+font-size: 27px;
+color:#fff;
+text-align: center;
+}
+
+.vendor-ss {
+width: 100%;
+overflow: hidden;
+background:#F2F2F2;
+}
+
+select.vendor-ss-request {
+margin: 0 !important;
+-webkit-appearance: none;
+-webkit-border-radius: 0px;
+margin-top: 10px;
+font-family: Circular-Bold;
+font-size: 14px;
+color: #484848;
+float: left;
+height: 40px;
+width: 100%;
+padding: 10px;
+border: 1px solid #BBB;
+background-color:#fff !important;
+background: url('../img/select.svg') no-repeat right center;
+background-position: 97%;
+}
+
+input[type=text].vendor-field {
+width: 100%;
+padding: 10px 0 10px 40px;
+color: #999;
+border: 0;
+border: 1px solid #BBB;
+background-color:#fff !important;
+background: url('../img/ss-calendar.svg') no-repeat 2% center;
+}
+
+a.collapse-arrow {
+padding:0 10px;
+height: 20px;
+background:#5AC8FA;
+border-radius: 4px;
+color: #fff;
+text-align: center;
+}
+
+h3.grey {
+color:#999;
+margin: 0 0 20px 0;
+background: #fff;
+}
+
+select.iam {
+margin: 0 !important;
+-webkit-appearance: none;
+-webkit-border-radius: 0px;
+margin-top: 10px;
+font-family: Circular-Bold;
+font-size: 14px;
+color: #484848;
+float: left;
+height: 40px;
+width: 100%;
+padding: 10px;
+border: 1px solid #BBB;
+background-color:#fff !important;
+background: url('../img/select.svg') no-repeat right center;
+background-position: 97%;
+}
+
+.select-if-forgetting {
+padding: 4px 0;
+width: 100%;
+overflow: hidden;
+border:1px solid #bbb;
+}
+
+.text-forgetting {
+float: left;
+padding-left: 10px;
+font-family: Circular-Bold;
+color: orange;
+font-size: 17px;
+text-align: left;
+}
+
+.check-forgetting {
+padding-right: 10px;
+float: right;
+}
+
+.yay {
+width: 100%;
+overflow: hidden;
+font-family: Circular-Book;
+font-size: 84px;
+color:#999;
+text-align: center;
+}
+
+.yay-container {
+margin: 10px 0;
+width: 100%;
+overflow: hidden;
+padding: 20px 0;
+border-bottom:1px solid #bbb;
+border-top:1px solid #bbb;
+}
 
 /* MOBILE */
 
