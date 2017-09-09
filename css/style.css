@@ -37,6 +37,10 @@ a:hover {
 }
 /* Overwrite Bootstrap Styles */
 
+.twelve {
+width: 12.5% !important;
+}
+
 .full-container {
     width: 100%;
     overflow: hidden;
@@ -530,6 +534,9 @@ button.blue-button {
     color: #fff;
     border-radius: 20px;
 }
+button.blue-button:hover {
+background: #484848;
+}
 .triangles {
     width: 100%;
     height: 0;
@@ -572,6 +579,15 @@ p.white-paragraph:hover {
     width: 28px;
     height: 28px;
     background: #fff;
+    border-radius: 50%;
+    padding: 5px 0 0 1px;
+    margin: 0 5px;
+}
+.social-circle-grey {
+    float: left;
+    width: 28px;
+    height: 28px;
+    background: #484848;
     border-radius: 50%;
     padding: 5px 0 0 1px;
     margin: 0 5px;
@@ -805,6 +821,14 @@ span.underline {
 }
 span.magenta {
     color: #FF2D55;
+}
+span.magenta-title {
+    font-size: 26px;
+    color: #FF2D55;
+}
+span.dark-grey {
+    color: #484848;
+    background: transparent;
 }
 span.black {
     color: #000;
@@ -1051,11 +1075,20 @@ h1.help {
 .margin-small-top {
     padding-top: 25px;
 }
+.margin-view-promokit {
+    padding:20px 0;
+}
+.margin-bottom-view-promokit {
+    padding-bottom: 20px;
+}
 .padding-small-top {
     padding-top: 25px;
 }
 .margin-smallest-top {
     padding-top: 10px;
+}
+.margin-15-top {
+    padding-top: 15px;
 }
 .margin-top-help {
     padding-top: 50px;
@@ -1108,6 +1141,9 @@ h1.help {
 }
 .grey-icon:hover {
     color: #5AC8FA;
+}
+.white-icon {
+    text-align: center;
 }
 .help-box {
     width: 100%;
@@ -1794,10 +1830,16 @@ margin-top: 70px;
 color: #fff;
 }
 
+i.fa-envelope.envelope-white {
+color:#fff !important;
+}
+
+i.fa-twitter.twitter-white {
+color:#fff !important;
+}
+
 i.fa-facebook.facebook-white {
 color:#fff !important;
-margin-right: 10px;
-margin-left: 10px;
 }
 
 .form-space {
@@ -1859,6 +1901,23 @@ button.grey-button {
     margin: 28px 0;
     color: #fff;
     border-radius: 20px;
+}
+
+button.light-grey-button {
+    width: 217px;
+    font-size: 13px;
+    text-align: center;
+    background: #999;
+    border: 0;
+    display: inline-block;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 4px 0;
+}
+
+button.light-grey-button:hover {
+    background: #484848;
 }
 
 /* CALENDAR */
@@ -2493,7 +2552,7 @@ border-bottom:none;
 
 .panel-title.panel-title-services {
 font-family: Circular-Bold;
-font-size: 27px;
+font-size: 24px;
 color:#fff;
 text-align: center;
 text-decoration: none;
@@ -2508,6 +2567,7 @@ margin: 20px 0;
 }
 
 .container-arrow {
+margin-top: 10px;
 font-family: Circular-Book;
 font-size:16px;
 }
@@ -3007,6 +3067,24 @@ border: 1px solid #BBB;
 background-color: none;
 background: url('../img/select.svg') no-repeat right center;
 background-position: 97%;
+}
+
+.choose-view-promokit {
+margin: 0 !important;
+-webkit-appearance: none;
+-webkit-border-radius: 0px;
+margin-top: 10px;
+font-family: Circular-Bold;
+font-size: 14px;
+color: #484848;
+float: left;
+height: 40px;
+padding: 10px;
+width: 100%;
+border: 1px solid #BBB;
+background-color: none;
+background: url('../img/select.svg') no-repeat right center;
+background-position: 99%;
 }
 
 .row.margin-top {
@@ -3970,6 +4048,11 @@ border: 1px solid #999;
 margin-bottom: 20px;
 }
 
+.box-ss-white {
+background: #fff;
+margin-bottom: 20px;
+}
+
 .photo-ss {
 width: 100%;
 height: 157px;
@@ -4097,6 +4180,33 @@ border: 0;
 border-radius: 5px;
 color: #fff;
 padding: 5px 10px;
+}
+
+button.add-favourites-view {
+width: 90%;
+margin: 4px 5%;
+background:#5AC8FA;
+border: 0;
+border-radius: 5px;
+color: #fff;
+padding: 5px;
+border-radius: 20px;
+}
+
+button.get-a-free-view {
+width: 90%;
+margin: 4px 5%;
+background:#999;
+border: 0;
+border-radius: 5px;
+color: #fff;
+padding: 5px;
+border-radius: 20px;
+}
+
+button.add-favourites-view:hover,
+button.get-a-free-view:hover {
+background:#484848;
 }
 
 button.get-quote {
@@ -4715,6 +4825,230 @@ color:#fff;
 padding-left: 10px;
 }
 
+/* VIEW PROMOKIT */
+
+.image-view-promokit {
+    padding: 10em 0;
+    padding-bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../img/view-promokit.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.image-view-promokit-inner {
+    display: block;
+    height: 0;
+    padding-top: 200vh;
+    /* 632 (image) / 1280 (width) * 100 */
+}
+
+.avatar-view-promokit {
+    margin-bottom:6em;
+    width: 180px;
+    height: 180px;
+    background-image: url(../img/view-promokit-avatar.png);
+    background-position: center;
+    background-size: 110%;
+    border: 7px solid #fff;
+    border-radius: 50%;
+}
+
+.menu-view-promokit {
+    padding: 20px 0;
+    width: 100%;
+    overflow: hidden;
+    background: #f2f2f2;
+}
+
+.menu-view-promokit2 {
+    padding: 20px 0;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    border-bottom: 1px solid #979797;
+}
+
+.menu-view-promokit3 {
+    padding: 20px 0;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.line-margin-right {
+border-right: 1px solid #999;
+}
+
+i.map-magenta {
+color:#FF2D55;
+}
+
+i.star-orange {
+color:orange;
+}
+
+i.star-black {
+color:black;
+}
+
+i.fa-star-o.star-black-o {
+padding: 0;
+color:black;
+font-size: 14px !important;
+}
+
+.view-promokit-awards {
+background: #5AC8FA;
+border-radius: 20px;
+margin: 4px 2px;
+}
+
+.view-promokit-box {
+padding:20px;
+width: 100%;
+overflow: hidden;
+background:#5AC8FA;
+border-radius: 20px;
+}
+
+hr.white {
+color:#fff;
+}
+
+p.float-left {
+margin-left: 10px;
+float: left;
+}
+
+.white-line {
+width: 100%;
+border-bottom: 1px solid #fff;
+}
+
+.view-promokit-box-pic {
+float: left;
+width:80px;
+height:80px;
+background: url(../img/testimonials3.png) no-repeat center center;
+border-radius:50%;
+}
+
+.booking-info-title {
+font-family: Circular-Bold;
+text-align: left;
+font-size: 21px;
+color:#484848;
+}
+
+button.back-view-promo {
+float: left;
+font-size: 13px;
+text-align: center;
+background: #5AC8FA;
+border: 0;
+display: inline-block;
+color: #fff;
+border-radius: 20px;
+padding: 10px 20px;
+margin: 4px 0;
+}
+
+button.back-view-promo:hover {
+background: #484848;
+}
+
+button.back-view-promo-magenta {
+float: left;
+font-size: 13px;
+text-align: center;
+background:#FF2D55;
+border: 0;
+display: inline-block;
+color: #fff;
+border-radius: 20px;
+padding: 10px 20px;
+margin: 4px 0;
+}
+
+button.back-view-promo-magenta:hover {
+background: #484848;
+}
+
+.calendar-top {
+width: 100%;
+height: 50px;
+background-image: url(../img/calendar-top.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-color: #FF2D55;
+}
+
+.calendar-middle {
+width: 100%;
+height: 40px;
+background:#FF2D55;
+font-family: Circular-Bold;
+font-size: 24px;
+text-align:center;
+color:#fff;
+}
+
+.calendar-bottom {
+width: 100%;
+overflow: hidden;
+background:#FFF;
+border-right: 1px solid #999;
+border-left: 1px solid #999;
+}
+
+.calendar-bottom-title {
+font-family: Circular-Bold;
+font-size: 21px;
+text-align:center;
+color:#FF2D55;
+}
+
+.calendar-bottom-text {
+text-align: center;
+}
+
+.calendar-zoom {
+zoom:80%;
+}
+
+.calendar-bottom-footer {
+padding: 30px 0;
+width: 100%;
+overflow: hidden;
+background:#FFF;
+border-bottom: 1px solid #999;
+background-image: url(../img/star-badge.svg);
+background-repeat: no-repeat;
+background-position: right;
+}
+
+img.float-right {
+float: right;
+right:0;
+position: relative;
+}
+
+.margin-top-calendar {
+padding-top: 15px;
+}
+
+.panel-body.grey {
+background-color: #f2f2f2;
+}
+
+.top-view-promokit {
+width: 100%;
+height:111px;
+background: #484848;
+opacity: .8;
+}
+
 
 /* MOBILE */
 
@@ -5066,6 +5400,16 @@ padding-left: 10px;
     .col-md-2-5 {
     width: 100%;
     overflow: hidden;
+    }
+
+    img.float-right {
+    float: left;
+    left:0;
+    position: relative;
+    }
+
+    .col-md-1-5 {
+    width: 12.5%;
     }
 
 }
