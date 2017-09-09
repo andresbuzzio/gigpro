@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="50px" viewBox="0 0 250 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>calendar-top</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="calendar-top">
+            <g id="Group-2" transform="translate(-3.000000, 4.000000)">
+                <rect id="Rectangle-2-Copy-3" fill="#FF2D55" x="0.432252932" y="3.8734498" width="254.320429" height="68.7182284"></rect>
+                <g id="Group" transform="translate(33.668167, 0.000000)">
+                    <ellipse id="Oval-7" fill-opacity="0.3" fill="#FFFFFF" cx="6.09709349" cy="26.0305802" rx="5.41881213" ry="5.41358248"></ellipse>
+                    <ellipse id="Oval-7-Copy" fill-opacity="0.3" fill="#FFFFFF" cx="45.0818483" cy="26.0305802" rx="5.41881213" ry="5.41358248"></ellipse>
+                    <ellipse id="Oval-7-Copy-3" fill-opacity="0.3" fill="#FFFFFF" cx="84.1949295" cy="26.0305802" rx="5.41881213" ry="5.41358248"></ellipse>
+                    <ellipse id="Oval-7-Copy-5" fill-opacity="0.3" fill="#FFFFFF" cx="123.444275" cy="26.0305802" rx="5.41881213" ry="5.41358248"></ellipse>
+                    <ellipse id="Oval-7-Copy-4" fill-opacity="0.3" fill="#FFFFFF" cx="64.6311127" cy="26.0305802" rx="5.41881213" ry="5.41358248"></ellipse>
+                    <ellipse id="Oval-7-Copy-6" fill-opacity="0.3" fill="#FFFFFF" cx="103.744194" cy="26.0305802" rx="5.41881213" ry="5.41358248"></ellipse>
+                    <ellipse id="Oval-7-Copy-8" fill-opacity="0.3" fill="#FFFFFF" cx="142.993539" cy="26.0305802" rx="5.41881213" ry="5.41358248"></ellipse>
+                    <ellipse id="Oval-7-Copy-11" fill-opacity="0.3" fill="#FFFFFF" cx="182.355335" cy="26.0305802" rx="5.41881213" ry="5.41358248"></ellipse>
+                    <rect id="Rectangle-4" fill="#D8D8D8" x="19.4543856" y="0.152175694" width="12.8696788" height="41.2785664" rx="6.4348394"></rect>
+                    <rect id="Rectangle-4-Copy" fill="#D8D8D8" x="156.438146" y="0.152175694" width="12.8696788" height="41.2785664" rx="6.4348394"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
