@@ -242,6 +242,11 @@ input[type=text].search-text {
     border: none;
     letter-spacing: 2px;
 }
+input[type=text].search-text::placeholder {
+    color: #fff;
+}
+
+
 input[type=text].search-text-small {
     width: 420px;
     font-family: Circular-Book;
@@ -252,24 +257,10 @@ input[type=text].search-text-small {
     border: none;
     letter-spacing: 2px;
 }
-::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
+input[type=text].search-text-small::placeholder {
+    color: #fff;
+}
 
-    color: #fff;
-}
-::-moz-placeholder {
-    /* Firefox */
-
-    color: #fff;
-}
-:-ms-input-placeholder {
-    /* IE */
-
-    color: #fff;
-}
-.white-font {
-    color: #fff;
-}
 
 input[type="radio"] {
 -webkit-appearance:none;
@@ -365,7 +356,7 @@ font-family: Circular-Book;
 .icon-1 {
     width: 100%;
     height: 160px;
-    background-image: url("../img/icon-homepage-1.png");
+    background-image: url("../img/home-icon1.svg");
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 35px;
@@ -373,7 +364,7 @@ font-family: Circular-Book;
 .icon-2 {
     width: 100%;
     height: 160px;
-    background-image: url("../img/icon-homepage-2.png");
+    background-image: url("../img/home-icon2.svg");
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 35px;
@@ -381,7 +372,7 @@ font-family: Circular-Book;
 .icon-3 {
     width: 100%;
     height: 160px;
-    background-image: url("../img/icon-homepage-3.png");
+    background-image: url("../img/home-icon3.svg");
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 35px;
@@ -450,7 +441,7 @@ font-family: Circular-Book;
 }
 .footer-lines {
     float: right;
-    width: 80%;
+    width: 100%;
     border-top: 1px solid #fff;
     padding-bottom: 60px;
     top: 15px;
@@ -458,7 +449,7 @@ font-family: Circular-Book;
 }
 .footer-lines-two {
     float: left;
-    width: 80%;
+    width: 100%;
     border-top: 1px solid #fff;
     padding-bottom: 60px;
     top: 15px;
