@@ -4278,6 +4278,11 @@ margin: 0 10px;
 padding-top: 4px;
 }
 
+i.fa.fa-search.white-font,
+i.fa.fa-location-arrow.white-font {
+color:#fff !important;
+}
+
 i.fa.fa-bars-ss {
 float: left;
 font-size: 1.5em;
