@@ -543,6 +543,9 @@ footer {
     background: #484848;
     overflow: hidden;
 }
+.margin-footer-text {
+padding-left: 120px;
+}
 .margin-bottom-footer {
     padding-bottom: 50px;
 }
@@ -841,12 +844,12 @@ span.left {
     background-image: url(../img/about-us.png);
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: contain;
+    background-size: cover;
 }
 .image-banner-inner {
     display: block;
     height: 0;
-    padding-top: 20%;
+    padding-top: 12%;
     /* 632 (image) / 1280 (width) * 100 */
 }
 h1.imageh1 {
@@ -854,10 +857,12 @@ h1.imageh1 {
     font-size: 60px;
     color: #fff;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 12%;
 }
 .image-left {
+    width: 100px;
     float: left;
+    margin-top: 10px;
 }
 .padding-about {
     padding-top: 54px;
@@ -5405,6 +5410,10 @@ opacity: .8;
 
     .col-md-1-5 {
     width: 12.5%;
+    }
+
+    .margin-footer-text {
+    padding-left:0;
     }
 
 }
