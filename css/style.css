@@ -3503,6 +3503,7 @@ padding: 14px;
 }
 
 .reviews-text {
+text-align: left;
 margin: 10px 0;
 color: #fff;
 margin-left: 10px;
@@ -5435,6 +5436,10 @@ opacity: .8;
     padding-left:0;
     }
 
+    .reviews-text {
+    text-align: center;
+    }
+
 }
 @media (max-width: 680px) {
     h1.title {
@@ -5503,10 +5508,10 @@ opacity: .8;
         top: 20px;
     }
     .btn-group {
-        border: none;
+  
     }
     .btn.btn-default.btn-group-color {
-        border: none;
+
     }
 
     .quote-text1,
