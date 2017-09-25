@@ -940,6 +940,7 @@ h2.contact {
 }
 .padding-form-start {
     padding-top: 30px;
+    margin-bottom: 30px;
 }
 .label-form {
     float: none;
@@ -1010,13 +1011,26 @@ background-repeat: no-repeat;
 }
 .button-browse {
     float: left;
-    width: 50%;
+    width:120px;
     background: #ccc;
     border: none;
     border-radius: 20px;
     padding: 10px;
     font-size: 16px;
     color: #fff;
+}
+.button-send {
+    float: left;
+    width:120px;
+    background:#5AC8FA;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+.button-browse:hover, .button-send:hover {
+background: #484848;
 }
 /* HELP CENTRE */
 
