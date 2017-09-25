@@ -670,7 +670,8 @@ h1.banner {
 }
 .btn.btn-default.btn-group-color {
     color: #FF2D55;
-    /* border-right: 1px solid #FF2D55; */
+    border-right: 1px solid #FF2D55;
+    border-radius: 0 !important;
 }
 /* btn-group active or current */
 
