@@ -162,7 +162,7 @@ video {
 }
 .banners {
     position: absolute;
-    top: 300px;
+    top: 200px;
     left: 4%;
     z-index: 1;
 }
@@ -5508,7 +5508,7 @@ opacity: .8;
         top: 20px;
     }
     .btn-group {
-  
+
     }
     .btn.btn-default.btn-group-color {
 
