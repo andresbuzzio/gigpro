@@ -677,6 +677,11 @@ padding: 0 40px;
     border-right: 1px solid #FF2D55;
     border-radius: 0 !important;
 }
+.btn.btn-default.btn-group-color.non-border {
+    color: #FF2D55;
+    border-right: 0;
+    border-radius: 0 !important;
+}
 /* btn-group active or current */
 
 .btn {
