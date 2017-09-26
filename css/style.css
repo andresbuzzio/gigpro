@@ -668,6 +668,10 @@ h1.banner {
 .no-right {
     border-right: none !important;
 }
+.btn.btn-default {
+height: 24px;
+padding: 0 40px;
+}
 .btn.btn-default.btn-group-color {
     color: #FF2D55;
     border-right: 1px solid #FF2D55;
@@ -5507,11 +5511,9 @@ opacity: .8;
         left: 10px;
         top: 20px;
     }
-    .btn-group {
 
-    }
-    .btn.btn-default.btn-group-color {
-
+    .btn.btn-default {
+    padding: 0 5px;
     }
 
     .quote-text1,
