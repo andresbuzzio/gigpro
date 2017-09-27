@@ -1946,6 +1946,14 @@ button.light-grey-button:hover {
     background: #484848;
 }
 
+.line-login {
+    height: 500px;
+    border-left: 1px solid #bbb;
+    left: 50px;
+    top: 50px;
+    position: relative;
+}
+
 /* CALENDAR */
 
 .rounded-box-outline {
@@ -5454,6 +5462,10 @@ opacity: .8;
 
     .reviews-text {
     text-align: center;
+    }
+
+    .line-login {
+    display: none;
     }
 
 }
