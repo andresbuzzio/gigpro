@@ -1325,6 +1325,13 @@ button.red-button {
     border-radius: 20px;
     background: #FF2D55;
 }
+.all-messages-no-round {
+    padding: 8px 0;
+    margin-top: 70px;
+    width: 100%;
+    overflow: hidden;
+    background: #FF2D55;
+}
 .all-messages-image {
     padding: 0 50px 0 5px;
     float: left;
