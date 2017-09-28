@@ -13,8 +13,6 @@
 
 body {
     font-family: Circular-Book;
-    position: absolute;
-    top: 0;
 }
 a {
     cursor: pointer;
@@ -51,12 +49,12 @@ width: 12.5% !important;
 .navbar-brand {
     padding-left: 0;
 }
-.navbar-default {
+.navbar-default, .navbar-light {
     width: 100%;
     padding: 12px 0;
     border: 0;
     border-radius: 0;
-    background: #484848;
+    background: #484848 !important;
     box-shadow: none;
     opacity: .9;
     margin: 0;
@@ -65,10 +63,10 @@ width: 12.5% !important;
 
     z-index: 999;
 }
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav>li>a, li.nav-item a {
     font-family: Circular-Book;
-    color: #fff;
-    font-size: 1em;
+    color: #fff !important;
+    font-size: 1em !important;
     letter-spacing: 1px;
     text-shadow: none;
     box-shadow: none;
@@ -77,7 +75,7 @@ width: 12.5% !important;
     color: #fff;
 }
 .navbar-default .navbar-nav>li>a:hover {
-    color: #5AC8FA;
+    color: #5AC8FA !important;
 }
 .logo-text {
     color: #fff;
@@ -121,6 +119,41 @@ padding-left:0;
 .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
 border: 0;
 }
+
+.carousel-control.right, .carousel-control.left {
+background: transparent !important;
+}
+
+.carousel-control {
+color:#FF2D55 !important;
+text-shadow: none !important;
+background-color: rgba(0,0,0,0);
+filter: alpha(opacity=100);
+opacity: 1;
+}
+
+.carousel-control:hover {
+color:#FF2D55 !important;
+}
+
+.carousel-indicators {
+position: relative;
+top:10px;
+}
+
+.carousel-indicators li {
+border: 1px solid #999;
+}
+
+.carousel-indicators .active {
+background-color: #999;
+}
+
+.glyphicon {
+position: relative;
+top: 50% !important;
+}
+
 /* Landing Page Hero Banner */
 
 .hero-banner {
@@ -1470,7 +1503,7 @@ color: #484848;
 
 .bubble {
 width: 100%;
-height: 224px;
+overflow: hidden;
 background: url('../img/bubble.svg') no-repeat;
 background-size: contain;
 max-width: 100%;
@@ -1532,12 +1565,16 @@ line-height: 250px;
 }
 
 .one {
+margin-top: 20px;
+margin-bottom: -20px;
 width: 385px;
 height: 250px;
 background: url('../img/testimonials.png') no-repeat 100px center;
 }
 
 .two {
+margin-top: 20px;
+margin-bottom: -20px;
 width: 385px;
 height: 250px;
 background: url('../img/testimonials2.png') no-repeat center center;
@@ -5466,6 +5503,11 @@ opacity: .8;
 
     .line-login {
     display: none;
+    }
+
+    .button-browse {
+    margin-bottom: 10px;
+    float: none !important;
     }
 
 }
