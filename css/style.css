@@ -5582,3 +5582,11 @@ opacity: .8;
     }
 
 }
+
+@media (max-width: 480px)  {
+
+  .btn-group {
+  zoom:80%;
+  }
+
+}
