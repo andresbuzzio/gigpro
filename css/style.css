@@ -5586,7 +5586,24 @@ opacity: .8;
 @media (max-width: 480px)  {
 
   .btn-group {
-  zoom:80%;
+   background: transparent;
+   border:0;
+   border-radius: 0;
+  }
+
+  .btn.btn-default.btn-group-color {
+  border:0;
+  text-shadow: none;
+  color:#fff;
+  }
+
+  .btn.btn-default.btn-group-color:hover {
+  color:#FF2D55;
+  }
+
+  .nav-light-grey {
+  background: #484848;
+  border-bottom: 1px solid #fff;
   }
 
 }
