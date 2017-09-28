@@ -5594,7 +5594,7 @@ opacity: .8;
   .btn.btn-default.btn-group-color {
   border:0;
   text-shadow: none;
-  color:#fff;
+  color:#484848;
   }
 
   .btn.btn-default.btn-group-color:hover {
@@ -5602,8 +5602,11 @@ opacity: .8;
   }
 
   .nav-light-grey {
-  background: #484848;
   border-bottom: 1px solid #fff;
+  }
+
+  .dark-grey {
+  background: #ddd;
   }
 
 }
