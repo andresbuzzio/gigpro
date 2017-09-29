@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="840px" height="150px" viewBox="0 0 840 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="426px" height="160px" viewBox="0 0 426 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
     <title>bubble</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <polygon id="path-1" points="1 2 836.853385 2 837.943374 114.754225 454.216688 116.758489 396.873037 148 396.840008 114.951304 2.08998918 114.754225"></polygon>
-        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="836.943374" height="146" fill="white">
+        <polygon id="path-1" points="4 1 421.506847 1 421.506847 132.990188 229.674065 134.512435 200.001553 159 199.984462 133.13987 4 132.990188"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="417.506847" height="158" fill="white">
             <use xlink:href="#path-1"></use>
         </mask>
     </defs>
