@@ -127,7 +127,7 @@ What’s your idea for GigPro?
 
 <div class="row-feedback">
 <div class="col-md-12 no-margins">
-  <textarea rows="4" class="feedback">Describe your idea… (optional)</textarea>
+  <textarea rows="4" class="feedback" placeholder="Describe your idea… (optional)"></textarea>
 </div>
 </div>
 <!-- end row-feedback -->
@@ -178,13 +178,74 @@ What’s your idea for GigPro?
 <!-- end row-feedback -->
 
 <div class="row-feedback-dropdown">
-<div class="wrapper">
-<div class="btn-group" role="group" aria-label="...">
-  <button type="button" class="btn btn-default">Left</button>
-  <button type="button" class="btn btn-default">Middle</button>
-  <button type="button" class="btn btn-default">Right</button>
+
+<!--
+
+<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+  <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  Category
+  </button>
+  <div class="dropdown-menu dropdown-menu-feedback1" aria-labelledby="btnGroupDrop1">
+   <a class="dropdown-item" href="#">Dropdown link 1</a>
+   <a class="dropdown-item" href="#">Dropdown link 1</a>
+  </div>
+
+  <button id="btnGroupDrop2" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  Status
+  </button>
+  <div class="dropdown-menu dropdown-menu-feedback2" aria-labelledby="btnGroupDrop2">
+   <a class="dropdown-item" href="#">Dropdown link 2</a>
+   <a class="dropdown-item" href="#">Dropdown link 2</a>
+  </div>
+
+  <button id="btnGroupDrop3" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  My Feedback
+  </button>
+  <div class="dropdown-menu dropdown-menu-feedback3" aria-labelledby="btnGroupDrop3">
+   <a class="dropdown-item" href="#">Dropdown link 3</a>
+   <a class="dropdown-item" href="#">Dropdown link 3</a>
+  </div>
+
 </div>
-</div>
+-->
+
+<div class="btn-group">
+        <button class="btn btn-group">
+            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                Category
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+            	<li><a href="#">New</a></li>
+        		<li><a href="#">Close</a></li>
+            </ul>
+        </button>
+        <button class="btn btn-group">
+            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                Status
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Copy</a></li>
+        		<li><a href="#">Paste</a></li>
+        		<li><a href="#">Undo</a></li>
+            </ul>
+        </button>
+      	<button class="btn btn-group non-border">
+            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                My Feedback
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+            <li><a href="#">Some Debug</a></li>
+        		<li><a href="#">Show XML</a></li>
+        		<li><a href="#">Show Log</a></li>
+        		<li><a href="#">Shut down the lot</a></li>
+            </ul>
+        </button>
+    </div>
+
 </div>
 <!-- end row-feedback -->
 
@@ -588,6 +649,6 @@ VOTE
 
 </footer>
 
-
+<script src="js/gigpro.js"></script>
 </body>
 </html>
