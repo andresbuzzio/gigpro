@@ -693,6 +693,9 @@ h1.banner {
     border: 1px solid #FF2D55;
     border-radius:4px;
 }
+.btn-group.full-btn-group {
+    width: 100%;
+}
 .btn-group .btn-default {
     background-color: transparent !important;
     background-image: none;
@@ -705,6 +708,54 @@ h1.banner {
 .btn.btn-default {
 height: 24px;
 padding: 0 40px;
+}
+.btn.btn-default.third {
+width: 33%;
+height: 24px;
+padding: 0 40px;
+color:#FF2D55;
+}
+.btn.btn-secondary.dropdown-toggle {
+height: 24px;
+padding: 0 40px;
+color:#FF2D55;
+background:#fff;
+box-shadow: none;
+border-right: 1px solid #FF2D55;
+}
+.open>.dropdown-menu {
+display: inline-grid;
+}
+.dropdown-menu.dropdown-menu-feedback1 {
+position: absolute;
+top: 100%;
+left:0;
+box-shadow:none !important;
+}
+.dropdown-menu.dropdown-menu-feedback2 {
+position: absolute;
+top: 100%;
+left:30%;
+box-shadow:none !important;
+}
+.dropdown-menu.dropdown-menu-feedback3 {
+position: absolute;
+top: 100%;
+left:60%;
+box-shadow:none !important;
+}
+a.dropdown-item {
+color:#FF2D55;
+}
+a.btn.dropdown-toggle {
+color:#FF2D55;
+}
+.btn.btn-default.third.border-right-btn {
+width: 33%;
+height: 24px;
+padding: 0 40px;
+color:#FF2D55;
+border-right: 1px solid #FF2D55;
 }
 .btn.btn-default.btn-group-color {
     color: #FF2D55;
@@ -740,6 +791,13 @@ padding: 0 40px;
     text-shadow: none;
 }
 /* btn-group Bootstrap overwrite ends */
+
+button.btn.btn-group {
+border-right: 2px solid #FF2D55 !important;
+}
+button.btn.btn-group.non-border {
+border-right:0 !important;
+}
 
 .triangles-white {
     width: 100%;
@@ -2533,8 +2591,9 @@ margin-bottom: 20px;
 
 .row-feedback-dropdown {
 width: 100%;
-overflow: hidden;
 padding: 20px 0;
+position: relative;
+z-index: 10;
 }
 
 .row-feedback-comments-feedback {
@@ -2542,6 +2601,8 @@ width: 100%;
 overflow: hidden;
 border-top: 1px solid #999;
 padding: 20px 0;
+position: relative;
+z-index: 1;
 }
 
 .row-fee-comm-bottom {
