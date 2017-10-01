@@ -427,7 +427,6 @@ font-family: Circular-Book;
 }
 .grey {
     background: #f2f2f2;
-    overflow: hidden;
 }
 .featured-title {
     font-family: Circular-Bold;
@@ -4006,7 +4005,7 @@ visibility: hidden;
 
 .small-column {
 margin-bottom: 20px;
-font-size: 14px;
+font-size: 12px;
 padding: 8px;
 width: 100%;
 overflow: hidden;
@@ -4016,7 +4015,7 @@ border-top: 15px solid #FF2D55;
 
 .small-column-blue {
 margin-bottom: 20px;
-font-size: 14px;
+font-size: 12px;
 padding: 8px;
 width: 100%;
 overflow: hidden;
