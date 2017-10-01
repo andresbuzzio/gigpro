@@ -792,13 +792,15 @@ border-right: 1px solid #FF2D55;
 }
 /* btn-group Bootstrap overwrite ends */
 
-button.btn.btn-group {
-border-right: 2px solid #FF2D55 !important;
+a.btn.dropdown-toggle {
+border-right: 1px solid #FF2D55;
 }
-button.btn.btn-group.non-border {
-border-right:0 !important;
+a.btn.dropdown-toggle.non-border {
+border:none;
 }
-
+.btn-group.open .dropdown-toggle {
+box-shadow: none;
+}
 .triangles-white {
     width: 100%;
     height: 0;
