@@ -3338,6 +3338,10 @@ a.blue-button-general-info {
   margin: 0 10px 0 0;
 }
 
+a.blue-button-general-info.margin-bottom {
+  margin-bottom: 20px;
+}
+
 a.blue-button-media {
   float: left;
   font-size: 13px;
