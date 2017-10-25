@@ -2690,6 +2690,31 @@ input[type=text].services {
     margin-top:6px;
 }
 
+ul#myUL {
+list-style: none;
+padding: 0;
+display: none;
+}
+
+ul#myULCity {
+list-style: none;
+padding: 0;
+display: none;
+}
+
+ul#myUL li, ul#myULCity li {
+width: 100%;
+padding: 4px 0 4px 8px;
+background: #fff;
+border: 1px solid #bbb;
+border-top: 1px solid #fff;
+}
+
+ul#myUL li a, ul#myULCity li a {
+color: #999;
+}
+
+
 .button-blue-no-margin {
 margin-bottom: 0 !important;
 margin-top: 25px !important;
