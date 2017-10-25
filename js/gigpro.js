@@ -145,3 +145,35 @@ function cleanFields() {
     document.getElementById("myUL").style.display = "none";
 
 }
+
+// change the arrow in event-services
+
+$(".click-chevron").click(function(){
+    document.getElementById("cambiameUno").style.display = "none";
+    document.getElementById("cambiameDos").style.display = "block";
+});
+
+$(".click-chevron-two").click(function(){
+    document.getElementById("cambiameUno").style.display = "block";
+    document.getElementById("cambiameDos").style.display = "none";
+});
+
+$(".click-chevron-three").click(function(){
+    document.getElementById("cambiameUno-Tres").style.display = "none";
+    document.getElementById("cambiameTres").style.display = "block";
+});
+
+$(".click-chevron-four").click(function(){
+    document.getElementById("cambiameUno-Tres").style.display = "block";
+    document.getElementById("cambiameTres").style.display = "none";
+});
+
+$(".click-chevron-cuatro").click(function(){
+    document.getElementById("cambiameCuatro").style.display = "none";
+    document.getElementById("cambiameCinco").style.display = "block";
+});
+
+$(".click-chevron-cinco").click(function(){
+    document.getElementById("cambiameCuatro").style.display = "block";
+    document.getElementById("cambiameCinco").style.display = "none";
+});
