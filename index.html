@@ -108,7 +108,30 @@
     <i class="fa fa-search white-font"></i>
     </div>
     <div class="search-one-col">
-    <input type="text" class="search-text" name="search" placeholder="ex: Photographer, Singer, Comedian...">
+
+    <input type="text" id="indexInput" onkeyup="mySearchIndex()" onfocusout="cleanFieldsIndex()" class="search-text" name="search" placeholder="ex: Photographer, Singer, Comedian...">
+
+    <ul id="myULIndex">
+    <li><a href="#">Athletes</a></li>
+    <li><a href="#">Authors</a></li>
+    <li><a href="#">Bands</a></li>
+    <li><a href="#">Bartenders</a></li>
+    <li><a href="#">Business Leaders</a></li>
+    <li><a href="#">Children’s Entertainers</a></li>
+    <li><a href="#">Comedians</a></li>
+    <li><a href="#">DJs</a></li>
+    <li><a href="#">Dancers</a></li>
+    <li><a href="#">Ensembles</a></li>
+    <li><a href="#">Magicians</a></li>
+    <li><a href="#">Photographers</a></li>
+    <li><a href="#">Politicians</a></li>
+    <li><a href="#">Rentals</a></li>
+    <li><a href="#">Singers</a></li>
+    <li><a href="#">Singers</a></li>
+    <li><a href="#">Soloists</a></li>
+    <li><a href="#">Wedding Services</a></li>
+    </ul>
+
     </div>
     </div>
 
@@ -118,7 +141,30 @@
     <i class="fa fa-location-arrow white-font"></i>
     </div>
     <div class="search-one-col">
-    <input type="text" class="search-text-small" name="search" placeholder="City, ST">
+
+    <input id="indexInputTwo" onkeyup="mySearchIndexTwo()" onfocusout="cleanFieldsIndex()" type="text" class="search-text-small" name="search" placeholder="City, ST">
+
+    <ul id="myULCityIndex">
+    <li class="list-city"><a href="#">Andaman and Nicobar Islands(AN)</a></li>
+    <li class="list-city"><a href="#">Bihar (BR)</a></li>
+    <li class="list-city"><a href="#">Chandigarh (CH)</a></li>
+    <li class="list-city"><a href="#">Dadra and Nagar Haveli (DN)</a></li>
+    <li class="list-city"><a href="#">Goa (GA)</a></li>
+    <li class="list-city"><a href="#">Gujarat (GJ)</a></li>
+    <li class="list-city"><a href="#">Haryana (HR)</a></li>
+    <li class="list-city"><a href="#">Himachal Pradesh (HP)</a></li>
+    <li class="list-city"><a href="#">Jammu and Kashmir (JK)</a></li>
+    <li class="list-city"><a href="#">Karnataka (KA)</a></li>
+    <li class="list-city"><a href="#">Lakshadweep (LD)</a></li>
+    <li class="list-city"><a href="#">Madhya Pradesh (MP)</a></li>
+    <li class="list-city"><a href="#">National Capital Territory of Delhi (DL)</a></li>
+    <li class="list-city"><a href="#">Punjab (PB)</a></li>
+    <li class="list-city"><a href="#">Rajasthan (RJ)</a></li>
+    <li class="list-city"><a href="#">Sikkim (SK)</a></li>
+    <li class="list-city"><a href="#">Tripura (TR)</a></li>
+    <li class="list-city"><a href="#">West Bengal (WB)</a></li>
+    </ul>
+
     </div>
     </div>
 
@@ -391,6 +437,6 @@ See what other Clients saying
 
 </footer>
 
-
+<script src="js/gigpro.js"></script>
 </body>
 </html>
