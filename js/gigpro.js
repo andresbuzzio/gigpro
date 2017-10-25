@@ -139,10 +139,71 @@ function mySearchCity() {
     }
 }
 
+// search in the index
+
+function mySearchIndex() {
+    // Declare variables
+    var input, filter, ul, li, a, e;
+    input = document.getElementById('indexInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myULIndex");
+    li = ul.getElementsByTagName('li');
+
+    document.getElementById("myULIndex").style.display = "block";
+    document.getElementById("myULCityIndex").style.display = "none";
+
+    $('#indexInput').removeAttr('placeholder');
+
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (e = 0; e < li.length; e++) {
+        a = li[e].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[e].style.display = "";
+        } else {
+            li[e].style.display = "none";
+        }
+    }
+}
+
+// search in the index - two
+
+function mySearchIndexTwo() {
+    // Declare variables
+    var input, filter, ul, li, a, e;
+    input = document.getElementById('indexInputTwo');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myULCityIndex");
+    li = ul.getElementsByTagName('li');
+
+    document.getElementById("myULCityIndex").style.display = "block";
+    document.getElementById("myULIndex").style.display = "none";
+
+    $('#indexInputTwo').removeAttr('placeholder');
+
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (e = 0; e < li.length; e++) {
+        a = li[e].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[e].style.display = "";
+        } else {
+            li[e].style.display = "none";
+        }
+    }
+}
+
 function cleanFields() {
 
     document.getElementById("myULCity").style.display = "none";
     document.getElementById("myUL").style.display = "none";
+
+}
+
+function cleanFieldsIndex() {
+
+    document.getElementById("myULCityIndex").style.display = "none";
+    document.getElementById("myULIndex").style.display = "none";
 
 }
 
