@@ -2766,6 +2766,10 @@ font-family: Circular-Book;
 font-size:16px;
 }
 
+i#cambiameDos, i#cambiameTres, i#cambiameCinco {
+display: none;
+}
+
 /* PROMOKIT */
 
 .listTitle-rounded-box {
@@ -3530,7 +3534,7 @@ color:#FF2D55;
 color: #fff;
 }
 
-.fa.fa-chevron-down{
+.fa.fa-chevron-down, .fa.fa-chevron-up {
 color:#FF2D55;
 }
 
