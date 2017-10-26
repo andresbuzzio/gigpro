@@ -11,6 +11,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900');
 /* Start */
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: Circular-Book;
 }
@@ -788,6 +793,38 @@ border-right: 1px solid #FF2D55;
     color: #484848 !important;
     text-shadow: none;
 }
+/* Bootstrap Dropdown Search */
+
+ul.dropdown-menu.index-search {
+    width: 280px;
+    padding: 20px;
+    border-radius: 0;
+    background: #242424;
+    border: 0;
+}
+
+.index-search-field {
+margin: 10px 0;
+padding: 5px;
+width: 100%;
+}
+
+span.looking-for {
+color:#ddd;
+}
+
+.vendor-search {
+color:#ddd;
+font-weight: bold;
+font-size: 16px;
+margin:0 0 10px 0;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+background: transparent !important;
+}
+
+
 /* btn-group Bootstrap overwrite ends */
 
 a.btn.dropdown-toggle {
