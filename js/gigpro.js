@@ -238,3 +238,22 @@ $(".click-chevron-cinco").click(function(){
     document.getElementById("cambiameCuatro").style.display = "block";
     document.getElementById("cambiameCinco").style.display = "none";
 });
+
+// delete favourites
+
+$(".delete-me").click(function(){
+  // $(".favy").empty();
+  $(this).prev().empty();
+  $(this).empty();
+  //
+});
+
+/*
+if ($('ul li.index-fav:empty')) {
+  $(".button-indexdrop").css('display','none');
+  $(".sorry-fav").css('display','block');
+}
+
+// $(".button-indexdrop").css('display','none');
+// $(".sorry-fav").css('display','block');
+*/
