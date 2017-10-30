@@ -803,6 +803,10 @@ ul.dropdown-menu.index-search {
     border: 0;
 }
 
+li.index-fav {
+height: 40px;
+}
+
 .index-search-field {
 margin: 10px 0;
 padding: 5px;
@@ -811,6 +815,34 @@ width: 100%;
 
 span.looking-for {
 color:#ddd;
+}
+
+span.favy {
+text-align: left;
+float: left;
+width: 90%;
+color:#ddd;
+line-height: 40px;
+}
+
+span.favy-right {
+text-align: right;
+float: right;
+width: 9%;
+color:#ff2d54;
+line-height: 40px;
+}
+
+.delete-me {
+display: block;
+cursor: pointer;
+}
+
+.sorry-fav {
+display: none;
+color:#fff;
+font-weight: bold;
+font-family:Circular-Bold;
 }
 
 .vendor-search {
@@ -1167,7 +1199,18 @@ background-repeat: no-repeat;
     font-size: 16px;
     color: #fff;
 }
-.button-browse:hover, .button-send:hover {
+.button-indexdrop {
+    float: left;
+    width:100%;
+    background:#5AC8FA;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #fff;
+}
+.button-browse:hover, .button-send:hover, .button-indexdrop:hover {
 background: #484848;
 }
 /* HELP CENTRE */
