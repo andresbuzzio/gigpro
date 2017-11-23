@@ -2814,8 +2814,10 @@ margin-right:10px;
 }
 
 .votes {
+width:15%;
 cursor: pointer;
 border:1px solid #999;
+border-radius: 4px;
 float: left;
 font-family: 'Montserrat', sans-serif;
 font-weight:300;
@@ -2825,6 +2827,10 @@ padding:3px 10px;
 text-align: center;
 margin-right:4px;
 margin-top: 10px;
+}
+
+.votes:hover {
+background: #eee;
 }
 
 .votes-text {
@@ -2862,7 +2868,7 @@ margin-bottom: 20px;
 
 .row-feedback-dropdown {
 width: 100%;
-padding: 20px 0;
+padding: 0 0 140px 0;
 position: relative;
 z-index: 10;
 }
@@ -3733,6 +3739,22 @@ a.blue-button-general-info {
   border-radius: 20px;
   padding: 8px 4em 8px 4em;
   margin: 0 10px 0 0;
+}
+
+a.blue-button-feedb {
+  font-size: 13px;
+  text-align: center;
+  background: #5AC8FA;
+  border: 0;
+  display: inline-block;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 4em 8px 4em;
+  margin: 0 10px 0 0;
+}
+
+a.blue-button-feedb:hover {
+  background: #484848;
 }
 
 button.blue-button-general-info {
@@ -6252,6 +6274,12 @@ font-weight:300;
    background: transparent;
    border:0;
    border-radius: 0;
+  }
+
+  .btn-group.btn-group-feedback {
+   background: transparent;
+   border: 1px solid #FF2D55;
+   border-radius:4px;
   }
 
   .btn.btn-default.btn-group-color {
