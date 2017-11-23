@@ -248,12 +248,9 @@ $(".delete-me").click(function(){
   //
 });
 
-/*
-if ($('ul li.index-fav:empty')) {
-  $(".button-indexdrop").css('display','none');
-  $(".sorry-fav").css('display','block');
-}
+// create new VOTE field
 
-// $(".button-indexdrop").css('display','none');
-// $(".sorry-fav").css('display','block');
-*/
+$(".votes").click(function(){
+    // feedback-social
+    $("#f-social").append("Appended text<br>");
+});
