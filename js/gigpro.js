@@ -250,7 +250,9 @@ $(".delete-me").click(function(){
 
 // create new VOTE field
 
+/*
 $(".votes").click(function(){
     // feedback-social
     $("#f-social").append("Appended text<br>");
 });
+*/
