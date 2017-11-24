@@ -107,12 +107,12 @@
 
 <div class="col-md-6">
 <div class="label-form">First Name:</div>
-<input type="text" class="vendor-field" name="name">
+<input type="text" class="vendor-field" name="name" placeholder="First Name">
 </div>
 
 <div class="col-md-6">
 <div class="label-form">Last Name:</div>
-<input type="text" class="vendor-field" name="name">
+<input type="text" class="vendor-field" name="name" placeholder="Last Name">
 </div>
 
 <div class="col-md-6">
@@ -122,7 +122,9 @@
 </div>
 
 <div class="col-md-3 margin-small-top">
+  <!--
   <a href="#" class="blue-upload hundred-percent">Continue</a>
+  -->
 </div>
 
 </div>
@@ -153,12 +155,11 @@
 </div>
 
 <div class="col-md-7 ">
-  <div class="rounded-blue-vendor">
+
+  <button class="rounded-blue-vendor" data-toggle="collapse" data-target="#demo">
   Choose your service/act category
-  </div>
-  <p class="bold margin-small-top">
-  The Category you choose determines where you appear in search results and will characterize your service to potential clients. Want more than one category? No worries -you can add and change categories later.
-  </p>
+  </button>
+
 </div>
 
 <div class="col-md-1">
@@ -169,30 +170,38 @@
 
 <!-- Start Select-->
 
+<div class="container collapse out" id="demo">
+
 <div class="row">
-
-<div class="col-md-2">
+<div class="col-md-4"></div>
+<div class="col-md-7">
+  <p class="bold margin-small-top">
+  The Category you choose determines where you appear in search results and will characterize your service to potential clients. Want more than one category? No worries -you can add and change categories later.
+  </p>
+</div>
 </div>
 
+  <div class="row">
 
-<div class="col-md-9 margin-smallest-top">
-  <select class="choose">
-   <option selected>Select Category</option>
-   <option>Select Category 1</option>
-   <option>Select Category 2</option>
-   <option>Select Category 3</option>
-  </select>
-</div>
+  <div class="col-md-2">
+  </div>
 
-<div class="col-md-1">
-</div>
 
-</div>
-<!-- end row-->
-</div>
-<!-- end container-->
+  <div class="col-md-9 margin-smallest-top">
+    <select class="choose">
+     <option selected>Select Category</option>
+     <option>Select Category 1</option>
+     <option>Select Category 2</option>
+     <option>Select Category 3</option>
+    </select>
+  </div>
 
-<div class="container">
+  <div class="col-md-1">
+  </div>
+
+  </div>
+  <!-- end row-->
+
 <div class="row">
 
 <div class="col-md-2">
@@ -321,6 +330,9 @@
 </div>
 <!-- end container-->
 
+</div>
+<!-- end panel collapse demo-->
+
 <div class="container padding-top-start">
 <div class="row">
 
@@ -338,10 +350,11 @@
 </div>
 
 <div class="col-md-7 ">
-  <div class="rounded-magenta-vendor">
-  What is your specific style?
-  </div>
-  <p class="bold margin-small-top">Give us some more details about the specific style & all sort of talents you have or special services you offer to your clients? </p>
+
+  <button class="rounded-magenta-vendor" data-toggle="collapse" data-target="#demo2">
+  Choose your service/act category
+  </button>
+
 </div>
 
 <div class="col-md-1">
@@ -352,9 +365,16 @@
 </div>
 <!-- end container-->
 
-<div class="container">
-<div class="row">
+<div class="container collapse" id="demo2">
 
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-7">
+<p class="bold margin-small-top">Give us some more details about the specific style & all sort of talents you have or special services you offer to your clients? </p>
+</div>
+</div>
+
+<div class="row">
 <div class="col-md-2">
 </div>
 
@@ -474,12 +494,11 @@
 </div>
 
 <div class="col-md-7 ">
-  <div class="rounded-blue-vendor">
+
+  <button class="rounded-blue-vendor" data-toggle="collapse" data-target="#demo3">
   Service/Act name, Location , Photo
-  </div>
-  <p class="bold margin-small-top">
-  Choose something that accurately represents the services you offer and is appealing at a glance -for example, “The Moondance Band” or “Elite Catering”
-  </p>
+  </button>
+
 </div>
 
 <div class="col-md-1">
@@ -487,6 +506,17 @@
 
 </div>
 <!-- end row-->
+
+<div class="container collapse" id="demo3">
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-7">
+<p class="bold margin-small-top">
+Choose something that accurately represents the services you offer and is appealing at a glance -for example, “The Moondance Band” or “Elite Catering”
+</p>
+</div>
+</div>
 
 <div class="row">
 
@@ -498,7 +528,7 @@
 
 <div class="col-md-12">
 <div class="label-form">Act or Service Name</div>
-<input type="text" class="vendor-field" name="act">
+<input type="text" class="vendor-field" name="act" placeholder="Act or Service Name">
 </div>
 <div class="col-md-12">
 <p class="bold margin-small-top">
@@ -523,7 +553,7 @@ This location determines where you appear in search results and will determine y
 
 <div class="col-md-12">
 <div class="label-form">Location</div>
-<input type="text" class="vendor-field" name="act">
+<input type="text" class="vendor-field" name="act" placeholder="Location">
 </div>
 <div class="col-md-12">
 <p class="bold margin-small-top">
@@ -569,6 +599,8 @@ Your profile photo shows up prominently in search results, at the top of your pr
 
 </div>
 <!-- end row-->
+</div>
+<!-- end container-->
 
 <div class="container padding-top-start">
 <div class="row">
@@ -576,7 +608,7 @@ Your profile photo shows up prominently in search results, at the top of your pr
 <div class="col-md-1">
 </div>
 
-<div class="col-md-1">
+<div class="col-md-1 no-paddings">
   <div class="circle-magenta">
   05.
   </div>
@@ -587,13 +619,11 @@ Your profile photo shows up prominently in search results, at the top of your pr
 </div>
 
 <div class="col-md-7 ">
-  <div class="rounded-magenta-vendor">
+
+  <button class="rounded-magenta-vendor" data-toggle="collapse" data-target="#demo4">
   Service or Act details & that’s all?
-  </div>
-  <p class="bold margin-small-top">
-  Summarize the services you offer and explain why the client should book you for their event. This will show up prominently at the top of your profile page.
-  <br><span class="magenta">Important: </span>your PromoKit may not contain email addresses, website links, or phone numbers.
-  </p>
+  </button>
+
 </div>
 
 <div class="col-md-1">
@@ -603,6 +633,18 @@ Your profile photo shows up prominently in search results, at the top of your pr
 <!-- end row-->
 </div>
 <!-- end container-->
+
+<div class="container collapse" id="demo4">
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-7">
+  <p class="bold margin-small-top">
+  Summarize the services you offer and explain why the client should book you for their event. This will show up prominently at the top of your profile page.
+  <br><span class="magenta">Important: </span>your PromoKit may not contain email addresses, website links, or phone numbers.
+  </p>
+</div>
+</div>
 
 <div class="row">
 
@@ -658,6 +700,9 @@ Your profile photo shows up prominently in search results, at the top of your pr
 <div class="col-md-6">
 <p class="small-right">By clicking this button, you agree to GigPro <span class="blue">Terms of Use</span></p>
 </div>
+
+</div>
+<!-- end container demo4-->
 
 <!-- final message-->
 <div class="col-md-3">
