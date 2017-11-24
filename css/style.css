@@ -3238,6 +3238,7 @@ border-radius: 30px;
 }
 
 .rounded-magenta-vendor {
+cursor: pointer;
 width: 100%;
 overflow: hidden;
 padding: 10px;
@@ -3248,6 +3249,11 @@ font-size: 27px;
 color:#fff;
 text-align: center;
 border-radius: 30px;
+border: 0;
+}
+
+.rounded-magenta-vendor:hover {
+background:#484848;
 }
 
 .rounded-title-blue-title {
@@ -3311,6 +3317,11 @@ font-size: 27px;
 color:#fff;
 text-align: center;
 border-radius: 30px;
+border: 0;
+}
+
+.rounded-blue-vendor:hover {
+background:#484848;
 }
 
 .some-margins {
@@ -5270,7 +5281,7 @@ background-position: 97%;
 
 input[type=text].vendor-field {
 width: 100%;
-padding: 10px 0 10px 40px;
+padding: 10px 0 10px 50px;
 color: #999;
 border: 0;
 border: 1px solid #BBB;
