@@ -2843,6 +2843,10 @@ top: 100px;
 z-index: 999999 !important;
 }
 
+.modal-footer {
+border:0;
+}
+
 .modal-backdrop.in {
 display: none;
 }
