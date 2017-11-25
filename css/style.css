@@ -4597,14 +4597,24 @@ padding-left: 4px;
 font-size: 13px;
 line-height: 20px;
 color: #000;
+position: relative;
+z-index: 1;
 }
 
 p.member-items-grey {
+width: 100%;
 padding-left: 4px;
 font-size: 13px;
 line-height: 20px;
-background:#F2F2F2;
 color: #000;
+float: left;
+}
+
+.member-items-grey {
+padding-left: 4px;
+width: 100%;
+overflow: hidden;
+background:#F2F2F2;
 }
 
 .row-grey {
