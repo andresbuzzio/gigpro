@@ -19,9 +19,13 @@
 
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
+
 <!-- Font Awesome -->
 <script src="https://use.fontawesome.com/d01670aec6.js"></script>
 
+<!-- Tool Tipster -->
+<link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css" />
+<script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
 
 <head/>
 
@@ -178,8 +182,14 @@
   </div>
 
   <div class="col-md-4 no-padding-right">
-  <p class="member-items-grey">Review Management</p>
+  <p class="member-items-grey">
+  Review Management
+  <span class="tooltip2" title="This is my span's tooltip message!">
+  <i class="fa fa-question-circle fa-margins"></i>
+  </span>
+  </p>
   </div>
+
 
   <div class="col-md-2 grey-no-border">
     <div class="wrapper">
@@ -248,7 +258,12 @@
   </div>
 
   <div class="col-md-4 no-padding-right">
-  <p class="member-items-grey">Automatic lead generator</p>
+  <p class="member-items-grey">
+  Automatic Lead Generator
+  <span class="tooltip2" title="This is my span's tooltip message!">
+  <i class="fa fa-question-circle fa-margins"></i>
+  </span>
+  </p>
   </div>
 
   <div class="col-md-2 grey-no-border">
@@ -1582,6 +1597,12 @@
 
 </footer>
 
+<script>
+    $(document).ready(function() {
+        $('.tooltip2').tooltipster();
+    });
+</script>
 
+<script src="js/gigpro.js"></script>
 </body>
 </html>
