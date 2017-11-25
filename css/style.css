@@ -2819,6 +2819,7 @@ margin-right:10px;
 
 .votes {
 width:15%;
+height: 35px;
 cursor: pointer;
 border:1px solid #999;
 border-radius: 4px;
@@ -2827,7 +2828,7 @@ font-family: 'Montserrat', sans-serif;
 font-weight:300;
 font-size: 16px;
 color: #999;
-padding:3px 10px;
+padding:6px 10px;
 text-align: center;
 margin-right:4px;
 margin-top: 10px;
@@ -5287,6 +5288,14 @@ border: 0;
 border: 1px solid #BBB;
 background-color:#fff !important;
 background: url('../img/ss-calendar.svg') no-repeat 2% center;
+}
+
+.float-me-left {
+float: left;
+}
+
+.fa-margins {
+margin:0 10px;
 }
 
 a.collapse-arrow {
