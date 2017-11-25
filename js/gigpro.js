@@ -256,3 +256,9 @@ $(".votes").click(function(){
     $("#f-social").append("Appended text<br>");
 });
 */
+
+// ToolTip
+
+$(document).ready(function() {
+  $('.tooltip').tooltipster();
+});
