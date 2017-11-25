@@ -4594,15 +4594,17 @@ font-size: 14px !important;
 
 p.member-items {
 padding-left: 4px;
-font-size: 12px;
+font-size: 13px;
 line-height: 20px;
+color: #000;
 }
 
 p.member-items-grey {
 padding-left: 4px;
-font-size: 12px;
+font-size: 13px;
 line-height: 20px;
 background:#F2F2F2;
+color: #000;
 }
 
 .row-grey {
