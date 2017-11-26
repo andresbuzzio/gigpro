@@ -269,5 +269,13 @@ $(".save-continue").click(function(){
   $(this).css('background', '#eee');
   // disable the button
   // $(this).attr('disabled', true);
-  
+
+});
+
+// vanish save-continue
+
+$(".save-continue2").click(function(){
+  $(this).css('background', '#eee');
+  // disable the button
+  $('#myModal').css('display', 'none');
 });
