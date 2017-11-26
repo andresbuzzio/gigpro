@@ -122,9 +122,17 @@
 </div>
 
 <div class="col-md-3 margin-small-top">
-  <!--
-  <a href="#" class="blue-upload hundred-percent">Continue</a>
-  -->
+
+<a href="#" class="blue-upload hundred-percent save-continue" data-toggle="collapse" data-target="#demo">
+Save & Continue
+</a>
+
+<!--
+<a href="#" class="blue-upload hundred-percent">
+Save & Continue
+</a>
+-->
+
 </div>
 
 </div>
@@ -156,9 +164,9 @@
 
 <div class="col-md-7 ">
 
-  <button class="rounded-blue-vendor" data-toggle="collapse" data-target="#demo">
-  Choose your service/act category
-  </button>
+<div class="rounded-blue-vendor">
+Choose your service/act category
+</div>
 
 </div>
 
@@ -308,15 +316,21 @@
 
 <!-- blue buttons-->
 <div class="col-md-3 margin-small-top ">
-  <a href="#" class="blue-upload hundred-percent">Back</a>
+
 </div>
 
 <div class="col-md-6">
 </div>
 
 <div class="col-md-3 margin-small-top ">
-  <a href="#" class="blue-upload hundred-percent">Continue</a>
+<!-- <a href="#" class="blue-upload hundred-percent">Continue</a> -->
+
+<a href="#" class="blue-upload hundred-percent save-continue" data-toggle="collapse" data-target="#demo2">
+Save & Continue
+</a>
+
 </div>
+
 <!-- blue buttons-->
 
 </div>
@@ -351,9 +365,9 @@
 
 <div class="col-md-7 ">
 
-  <button class="rounded-magenta-vendor" data-toggle="collapse" data-target="#demo2">
+  <div class="rounded-magenta-vendor">
   Choose your service/act category
-  </button>
+  </div>
 
 </div>
 
@@ -455,14 +469,16 @@
 
 <!-- blue buttons-->
 <div class="col-md-3 margin-small-top ">
-  <a href="#" class="blue-upload hundred-percent">Back</a>
+
 </div>
 
 <div class="col-md-6">
 </div>
 
 <div class="col-md-3 margin-small-top ">
-  <a href="#" class="blue-upload hundred-percent">Continue</a>
+  <a href="#" class="blue-upload hundred-percent save-continue" data-toggle="collapse" data-target="#demo3">
+  Save & Continue
+  </a>
 </div>
 <!-- blue buttons-->
 
@@ -495,9 +511,9 @@
 
 <div class="col-md-7 ">
 
-  <button class="rounded-blue-vendor" data-toggle="collapse" data-target="#demo3">
+  <div class="rounded-blue-vendor">
   Service/Act name, Location , Photo
-  </button>
+  </div>
 
 </div>
 
@@ -580,14 +596,16 @@ Your profile photo shows up prominently in search results, at the top of your pr
 
 <!-- blue buttons-->
 <div class="col-md-3 margin-small-top ">
-  <a href="#" class="blue-upload hundred-percent">Back</a>
+
 </div>
 
 <div class="col-md-6">
 </div>
 
 <div class="col-md-3 margin-small-top ">
-  <a href="#" class="blue-upload hundred-percent">Continue</a>
+  <a href="#" class="blue-upload hundred-percent save-continue" data-toggle="collapse" data-target="#demo4">
+  Save & Continue
+  </a>
 </div>
 <!-- blue buttons-->
 
@@ -620,9 +638,9 @@ Your profile photo shows up prominently in search results, at the top of your pr
 
 <div class="col-md-7 ">
 
-  <button class="rounded-magenta-vendor" data-toggle="collapse" data-target="#demo4">
+  <div class="rounded-magenta-vendor">
   Service or Act details & that’s all?
-  </button>
+  </div>
 
 </div>
 
@@ -680,14 +698,20 @@ Your profile photo shows up prominently in search results, at the top of your pr
 
 <!-- blue buttons-->
 <div class="col-md-3 margin-small-top ">
-  <a href="#" class="blue-upload hundred-percent">Back</a>
 </div>
 
 <div class="col-md-6">
 </div>
 
 <div class="col-md-3 margin-small-top ">
-  <a href="#" class="blue-upload hundred-percent">Continue</a>
+  <button type="button" class="blue-upload hundred-percent save-continue" data-toggle="modal" data-target="#myModal">
+  Save & Continue
+  </button>
+  <!--
+  <a href="#" class="blue-upload hundred-percent save-continue" data-toggle="collapse" data-target="#demo5">
+  Save & Continue
+  </a>
+  -->
 </div>
 <!-- blue buttons-->
 
@@ -704,6 +728,40 @@ Your profile photo shows up prominently in search results, at the top of your pr
 </div>
 <!-- end container demo4-->
 
+<!-- Modal -->
+<div id="myModal" class="modal fade hide-modal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Terms and Conditions</h4>
+      </div>
+
+      <div class="modal-body">
+        <div class="col-md-12">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+        <div class="col-md-12">
+          <a href="#" class="blue-upload hundred-percent save-continue" data-toggle="collapse" data-target="#demo5">
+          Save & Continue
+          </a>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+      </div>
+
+</div>
+</div>
+</div>
+<!-- Close Modal -->
+
+
+<div class="container collapse" id="demo5">
+
 <!-- final message-->
 <div class="col-md-3">
 <img src="img/vendor-final-check.svg">
@@ -711,9 +769,13 @@ Your profile photo shows up prominently in search results, at the top of your pr
 
 <div class="col-md-9">
 <div class="blue-big">All Done!</div>
-<div class="blue-medium">Now, choose the plan that’s right for you</div>
-<div class="blue-line"></div>
-<p class="bold">Get started for free or upgrade now for more leads</p>
+
+
+<div class="blue-medium hide-me">Now, choose the plan that’s right for you</div>
+<div class="blue-line hide-me"></div>
+<p class="bold hide-me">Get started for free or upgrade now for more leads</p>
+
+
 </div>
 <!-- final message-->
 
@@ -739,6 +801,8 @@ Your profile photo shows up prominently in search results, at the top of your pr
 </div>
 <!-- end row-->
 
+</div>
+<!-- end container demo5-->
 
 </div>
 <!-- end container-->
@@ -892,6 +956,6 @@ Your profile photo shows up prominently in search results, at the top of your pr
 
 </footer>
 
-
+<script src="js/gigpro.js"></script>
 </body>
 </html>
