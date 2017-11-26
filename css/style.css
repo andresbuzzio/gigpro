@@ -3239,7 +3239,6 @@ border-radius: 30px;
 }
 
 .rounded-magenta-vendor {
-cursor: pointer;
 width: 100%;
 overflow: hidden;
 padding: 10px;
@@ -3253,9 +3252,11 @@ border-radius: 30px;
 border: 0;
 }
 
+/*
 .rounded-magenta-vendor:hover {
 background:#484848;
 }
+*/
 
 .rounded-title-blue-title {
 width: 100%;
@@ -3321,9 +3322,11 @@ border-radius: 30px;
 border: 0;
 }
 
+/*
 .rounded-blue-vendor:hover {
 background:#484848;
 }
+*/
 
 .some-margins {
 margin: 20px 0;
@@ -3496,6 +3499,30 @@ margin: 2px 0;
 
 a.blue-upload.hundred-percent,
 a.grey-upload.hundred-percent {
+width:100% !important;
+}
+
+button.blue-upload {
+width: 95%;
+overflow: hidden;
+font-size: 13px;
+text-align: center;
+background: #5AC8FA;
+border: 0;
+display: inline-block;
+color: #fff;
+border-radius: 20px;
+padding: 8px;
+letter-spacing: 1px;
+margin: 2px 0;
+}
+
+.hide-me {
+visibility: hidden;
+}
+
+button.blue-upload.hundred-percent,
+button.grey-upload.hundred-percent {
 width:100% !important;
 }
 
