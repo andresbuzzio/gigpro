@@ -260,5 +260,14 @@ $(".votes").click(function(){
 // ToolTip
 
 $(document).ready(function() {
-  $('.tooltip').tooltipster();
+  $('.tooltip2').tooltipster();
+});
+
+// grey button save-continue
+
+$(".save-continue").click(function(){
+  $(this).css('background', '#eee');
+  // disable the button
+  // $(this).attr('disabled', true);
+  
 });
