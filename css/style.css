@@ -3502,6 +3502,10 @@ a.grey-upload.hundred-percent {
 width:100% !important;
 }
 
+a.blue-upload.doscientos {
+width:200px !important;
+}
+
 button.blue-upload {
 width: 95%;
 overflow: hidden;
@@ -4916,7 +4920,7 @@ display: inline-block;
 }
 
 button.add-favourites {
-width: 150px;
+width: auto;
 margin: 4px 0;
 background:#5AC8FA;
 border: 0;
@@ -4968,6 +4972,15 @@ padding: 5px 10px;
 .slider-vendor {
 zoom:120%;
 margin: 20px 0;
+}
+
+.slider.slider-horizontal {
+width: 100% !important;
+padding: 20px 0;
+}
+
+.tooltip.top {
+margin-top: 10px !important;
 }
 
 .toggle.btn {
