@@ -282,6 +282,7 @@ $(".save-continue2").click(function(){
 
 // close vendor-signup 1
 
+/*
 $(".close-1").click(function(){
   $(".section-1").fadeOut(500);
 });
@@ -305,4 +306,29 @@ $(".close-5").click(function(){
 $(".close-5").click(function(){
   $('.open-6').css('display', 'block');
   $('#myModal').css('display', 'none');
+});
+*/
+
+// open VIEW-PROFILE ON SS-VENDOR
+
+$(".view-profile-ss").click(function(){
+  $(".opacity-view-profile").css('display', 'block');
+  $(".view-profile-ss2").css('display', 'block');
+});
+
+$(".view-profile-ss2").click(function(){
+  $(".opacity-view-profile").css('display', 'none');
+  $(".view-profile-ss2").css('display', 'none');
+  $(".view-profile-ss").css('display', 'block');
+});
+
+$(".view-profile-ss3").click(function(){
+  $(".opacity-view-profile1").css('display', 'block');
+  $(".view-profile-ss4").css('display', 'block');
+});
+
+$(".view-profile-ss4").click(function(){
+  $(".opacity-view-profile1").css('display', 'none');
+  $(".view-profile-ss4").css('display', 'none');
+  $(".view-profile-ss3").css('display', 'block');
 });
