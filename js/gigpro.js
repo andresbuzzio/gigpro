@@ -312,6 +312,7 @@ $(".close-5").click(function(){
 // open VIEW-PROFILE ON SS-VENDOR
 
 $(".view-profile-ss").click(function(){
+  $(".opacity-view-profile").fadeIn(500);
   $(".opacity-view-profile").css('display', 'block');
   $(".view-profile-ss2").css('display', 'block');
 });
@@ -323,6 +324,7 @@ $(".view-profile-ss2").click(function(){
 });
 
 $(".view-profile-ss3").click(function(){
+  $(".opacity-view-profile1").fadeIn(500);
   $(".opacity-view-profile1").css('display', 'block');
   $(".view-profile-ss4").css('display', 'block');
 });
