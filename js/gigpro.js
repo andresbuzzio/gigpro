@@ -277,5 +277,32 @@ $(".save-continue").click(function(){
 $(".save-continue2").click(function(){
   $(this).css('background', '#eee');
   // disable the button
+  // $('#myModal').css('display', 'none');
+});
+
+// close vendor-signup 1
+
+$(".close-1").click(function(){
+  $(".section-1").fadeOut(500);
+});
+
+$(".close-2").click(function(){
+  $(".section-2").fadeOut(500);
+});
+
+$(".close-3").click(function(){
+  $(".section-3").fadeOut(500);
+});
+
+$(".close-4").click(function(){
+  $(".section-4").fadeOut(500);
+});
+
+$(".close-5").click(function(){
+  $(".section-5").fadeOut(500);
+});
+
+$(".close-5").click(function(){
+  $('.open-6').css('display', 'block');
   $('#myModal').css('display', 'none');
 });
