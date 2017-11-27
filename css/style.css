@@ -4831,6 +4831,56 @@ opacity: .9;
 padding: 5px 0;
 }
 
+.view-profile-ss, .view-profile-ss3 {
+cursor: pointer;
+position: absolute;
+top: 7px;
+right: 8%;
+width: 24px;
+height: 24px;
+border: 2px solid white;
+border-radius: 50%;
+text-align: center;
+padding: 1px;
+z-index: 9999;
+}
+
+.view-profile-ss2, .view-profile-ss4 {
+display: none;
+cursor: pointer;
+position: absolute;
+top: 7px;
+right: 8%;
+width: 24px;
+height: 24px;
+border: 2px solid white;
+background: rgba(255, 255, 255, 0.3);
+border-radius: 50%;
+text-align: center;
+padding: 1px;
+z-index: 9999;
+}
+
+.opacity-view-profile, .opacity-view-profile1 {
+display: none;
+cursor: pointer;
+position: absolute;
+top: 0;
+right: 0;
+margin: 0 5%;
+width: 90%;
+height: 160px;
+background: #484848;
+opacity: .9;
+}
+
+.view-profile {
+text-align: center;
+color: #fff;
+font-weight: bold;
+padding-top: 65px;
+}
+
 .caption-ss-quotations {
 position: relative;
 width: 100%;
@@ -4917,6 +4967,11 @@ text-align: center;
 
 .its-wrapped {
 display: inline-block;
+}
+
+.itswrapped.ninety {
+width: 90% !important;
+margin: 0 5%;
 }
 
 button.add-favourites {
@@ -5254,7 +5309,6 @@ width: 200px;
 }
 
 .container-magenta {
-margin-top: 20px;
 background:#FF2D55;
 overflow: hidden;
 padding-top: 8px;
