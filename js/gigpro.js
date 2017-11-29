@@ -334,3 +334,41 @@ $(".view-profile-ss4").click(function(){
   $(".view-profile-ss4").css('display', 'none');
   $(".view-profile-ss3").css('display', 'block');
 });
+
+// ADD TO FAVOURITES
+
+$(".fav-ss").click(function(){
+  $(".fav-ss2").css('display', 'block');
+  $(".fav-ss").css('display', 'none');
+  $("button.add-favourites2").fadeIn(500);
+  $("button.add-favourites2").css('display', 'block');
+  $("button.add-favourites1").css('display', 'none');
+});
+
+$(".fav-ss2").click(function(){
+  $(".fav-ss").css('display', 'block');
+  $(".fav-ss2").css('display', 'none');
+  $("button.add-favourites1").fadeIn(500);
+  $("button.add-favourites1").css('display', 'block');
+  $("button.add-favourites2").css('display', 'none');
+});
+
+// add-favourites
+
+$("button.add-favourites1").click(function(){
+  $(".fav-ss2").fadeIn(500);
+  $(".fav-ss2").css('display', 'block');
+  $(".fav-ss").css('display', 'none');
+  $("button.add-favourites2").fadeIn(500);
+  $("button.add-favourites2").css('display', 'block');
+  $("button.add-favourites1").css('display', 'none');
+});
+
+$("button.add-favourites2").click(function(){
+  $(".fav-ss").fadeIn(500);
+  $(".fav-ss").css('display', 'block');
+  $(".fav-ss2").css('display', 'none');
+  $("button.add-favourites1").fadeIn(500);
+  $("button.add-favourites1").css('display', 'block');
+  $("button.add-favourites2").css('display', 'none');
+});
