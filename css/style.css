@@ -844,6 +844,10 @@ border-top: 1px solid #999;
 border-bottom: 1px solid #999;
 }
 
+.dropdown-menu-right {
+float: right;
+}
+
 .dropdown-menu>li>a {
     display: block;
     padding: 3px 10px;
@@ -5578,6 +5582,7 @@ font-size: 21px;
 color:#fff;
 text-align:left;
 border-radius: 30px;
+border: 0;
 }
 
 .rounded-blue-quotations {
@@ -5592,6 +5597,7 @@ font-size: 21px;
 color:#fff;
 text-align:left;
 border-radius: 30px;
+border: 0;
 }
 
 .rounded-magenta-left {
