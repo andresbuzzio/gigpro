@@ -2044,6 +2044,10 @@ p.align-center {
 text-align: center;
 }
 
+h1, h2, h3, h4, h5, h6.align-center {
+text-align: center;
+}
+
 p.small {
 font-size:12px;
 }
@@ -3557,6 +3561,26 @@ border-radius: 20px;
 padding: 8px;
 letter-spacing: 1px;
 margin: 2px 0;
+}
+
+a.light-grey-upload {
+width: 95%;
+overflow: hidden;
+font-size: 11px;
+font-weight: bold;
+text-align: center;
+background: #eee;
+border: 0;
+display: inline-block;
+color: #484848;
+border-radius: 20px;
+padding: 8px;
+letter-spacing: 1px;
+margin: 2px 0;
+}
+
+a.light-grey-upload:hover {
+background: #ddd;
 }
 
 a.blue-media {
