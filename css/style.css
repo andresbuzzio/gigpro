@@ -4921,6 +4921,25 @@ padding: 1px;
 z-index: 9999;
 }
 
+.remove-add-compare1,
+.remove-add-compare2,
+.remove-add-compare3,
+.remove-add-compare4,
+.remove-add-compare5 {
+cursor: pointer;
+position:relative;
+top: 7px;
+left: 80%;
+width: 24px;
+height: 24px;
+border: 2px solid white;
+background: #FF2D55;
+border-radius: 50%;
+text-align: center;
+padding: 0;
+z-index: 9999;
+}
+
 .opacity-view-profile, .opacity-view-profile1 {
 display: none;
 cursor: pointer;
