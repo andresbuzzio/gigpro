@@ -3162,6 +3162,10 @@ color: #7ED321;
 padding-right: 10px;
 }
 
+.fa-check {
+color: #7ED321;
+}
+
 .panel-body.panel-promokit {
 padding: 0;
 padding-top: 20px;
@@ -5633,6 +5637,20 @@ font-weight:300;
 font-size: 17px;
 text-align: center;
 color:#FF2D55 !important;
+}
+
+/* COMPARE QUOTATIONS */
+
+.hide-me-ss {
+visibility:hidden;
+}
+
+.added-compared1,
+.added-compared2,
+.added-compared3,
+.added-compared4,
+.added-compared5 {
+visibility:hidden;
 }
 
 button.add-compare-magenta {
