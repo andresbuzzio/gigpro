@@ -372,3 +372,37 @@ $("button.add-favourites2").click(function(){
   $("button.add-favourites1").css('display', 'block');
   $("button.add-favourites2").css('display', 'none');
 });
+
+// add compare
+
+$("#add-compare1").click(function(){
+  $(".added-compared1").fadeIn(500);
+  $('.added-compared1').css('visibility', 'visible');
+  $('#added-compared-circle1.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-check');
+});
+
+$("#add-compare2").click(function(){
+  $(".added-compared2").fadeIn(500);
+  $('.added-compared2').css('visibility', 'visible');
+  $('#added-compared-circle2.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-check');
+});
+
+$("#add-compare3").click(function(){
+  $(".added-compared3").fadeIn(500);
+  $('.added-compared3').css('visibility', 'visible');
+  $('#added-compared-circle3.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-check');
+});
+
+$("#add-compare4").click(function(){
+  $(".added-compared4").fadeIn(500);
+  $('.added-compared4').css('visibility', 'visible');
+  $('#added-compared-circle4.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-check');
+});
+
+$("#add-compare5").click(function(){
+  $(".added-compared5").fadeIn(500);
+  $('.added-compared5').css('visibility', 'visible');
+  $('#added-compared-circle5.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-check');
+});
+
+// .removeClass('even').addClass('odd'); fa-plus-circle
