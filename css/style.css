@@ -4855,6 +4855,34 @@ opacity: .9;
 padding: 5px 0;
 }
 
+.fav-ss {
+cursor: pointer;
+position: absolute;
+top: 7px;
+left: 8%;
+width: 24px;
+height: 24px;
+border-radius: 50%;
+text-align: center;
+padding: 1px;
+z-index: 9999;
+}
+
+.fav-ss2 {
+display: none;
+cursor: pointer;
+position: absolute;
+top: 7px;
+left: 8%;
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background: #FF2D55;
+text-align: center;
+padding: 1px;
+z-index: 9999;
+}
+
 .view-profile-ss, .view-profile-ss3 {
 cursor: pointer;
 position: absolute;
@@ -4941,6 +4969,16 @@ color:#484848;
 text-align: center;
 }
 
+.title-ss2 {
+padding-top: 15px;
+padding-bottom: 10px;
+font-family: 'Montserrat', sans-serif;
+font-weight:600;
+font-size: 17px;
+color:#484848;
+text-align: center;
+}
+
 .orange-star {
 font-size: 22px !important;
 color:orange;
@@ -4999,9 +5037,30 @@ margin: 0 5%;
 }
 
 button.add-favourites {
-width: auto;
-margin: 4px 0;
+width: 70%;
+margin: 4px 15%;
 background:#5AC8FA;
+border: 0;
+border-radius: 5px;
+color: #fff;
+padding: 5px 10px;
+}
+
+button.add-favourites1 {
+width: 70%;
+margin: 4px 15%;
+background:#5AC8FA;
+border: 0;
+border-radius: 5px;
+color: #fff;
+padding: 5px 10px;
+}
+
+button.add-favourites2 {
+display: none;
+width: 70%;
+margin: 4px 15%;
+background:#FF2D55;
 border: 0;
 border-radius: 5px;
 color: #fff;
