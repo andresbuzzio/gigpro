@@ -405,4 +405,29 @@ $("#add-compare5").click(function(){
   $('#added-compared-circle5.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-check');
 });
 
-// .removeClass('even').addClass('odd'); fa-plus-circle
+// remove add-compare
+
+$(".remove-add-compare1").click(function(){
+  $(".added-compared1").css('visibility', 'hidden');
+  $('#added-compared-circle1.fa-check').removeClass('fa-check').addClass('fa-plus-circle');
+});
+
+$(".remove-add-compare2").click(function(){
+  $(".added-compared2").css('visibility', 'hidden');
+  $('#added-compared-circle2.fa-check').removeClass('fa-check').addClass('fa-plus-circle');
+});
+
+$(".remove-add-compare3").click(function(){
+  $(".added-compared3").css('visibility', 'hidden');
+  $('#added-compared-circle3.fa-check').removeClass('fa-check').addClass('fa-plus-circle');
+});
+
+$(".remove-add-compare4").click(function(){
+  $(".added-compared4").css('visibility', 'hidden');
+  $('#added-compared-circle4.fa-check').removeClass('fa-check').addClass('fa-plus-circle');
+});
+
+$(".remove-add-compare5").click(function(){
+  $(".added-compared5").css('visibility', 'hidden');
+  $('#added-compared-circle5.fa-check').removeClass('fa-check').addClass('fa-plus-circle');
+});
