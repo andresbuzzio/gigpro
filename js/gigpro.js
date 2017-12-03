@@ -239,6 +239,122 @@ $(".click-chevron-cinco").click(function(){
     document.getElementById("cambiameCinco").style.display = "none";
 });
 
+$(".click-chevronAwards").click(function(){
+    document.getElementById("cambiameAwards2").style.display = "none";
+    document.getElementById("cambiameAwards").style.display = "block";
+});
+
+$(".click-chevronAwards2").click(function(){
+    document.getElementById("cambiameAwards2").style.display = "block";
+    document.getElementById("cambiameAwards").style.display = "none";
+});
+
+// Collapse Expand - arrow behaviour
+
+$(".clickArrow").click(function(){
+  $(".clickArrow").css('display', 'none');
+  $(".clickArrowZwei").css('display', 'block');
+});
+
+$(".clickArrowZwei").click(function(){
+  $(".clickArrowZwei").css('display', 'none');
+  $(".clickArrow").css('display', 'block');
+});
+
+$(".clickArrowDrei").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrowVier").css('display', 'block');
+});
+
+$(".clickArrowVier").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrowDrei").css('display', 'block');
+});
+
+$(".clickArrowFuenf").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrowSechs").css('display', 'block');
+});
+
+$(".clickArrowSechs").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrowFuenf").css('display', 'block');
+});
+
+//
+
+$(".clickArrowSieben").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrowAcht").css('display', 'block');
+});
+
+$(".clickArrowAcht").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrowSieben").css('display', 'block');
+});
+
+$(".clickArrowNeun").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrowZehn").css('display', 'block');
+});
+
+$(".clickArrowZehn").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrowNeun").css('display', 'block');
+});
+
+//
+
+$(".clickArrowElf").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrowZwolf").css('display', 'block');
+});
+
+$(".clickArrowZwolf").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrowElf").css('display', 'block');
+});
+
+//
+
+$(".clickArrow13").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrow14").css('display', 'block');
+});
+
+$(".clickArrow14").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrow13").css('display', 'block');
+});
+
+//
+
+$(".clickArrow15").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrow16").css('display', 'block');
+});
+
+$(".clickArrow16").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrow15").css('display', 'block');
+});
+
+//
+
+$(".clickArrow17").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrow18").css('display', 'block');
+});
+
+$(".clickArrow18").click(function(){
+  $(this).css('display', 'none');
+  $(".clickArrow17").css('display', 'block');
+});
+
+
+
+
+
 // delete favourites
 
 $(".delete-me").click(function(){
