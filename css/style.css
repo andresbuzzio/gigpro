@@ -3121,8 +3121,16 @@ font-weight:300;
 font-size:16px;
 }
 
-i#cambiameDos, i#cambiameTres, i#cambiameCinco {
+i#cambiameDos, i#cambiameTres, i#cambiameCinco,
+i#cambiameAwards,
+.clickArrowZwei, .clickArrowVier, .clickArrowSechs,
+.clickArrowAcht, .clickArrowZehn, .clickArrowZwolf,
+.clickArrow14, .clickArrow16, .clickArrow18 {
 display: none;
+}
+
+.click-chevron {
+cursor: pointer;
 }
 
 /* PROMOKIT */
