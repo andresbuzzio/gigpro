@@ -2285,6 +2285,15 @@ button.grey-button {
     border-radius: 20px;
 }
 
+a.black-link {
+color: #000;
+}
+
+.btn-info.transparent {
+background: transparent!important;
+color: #000;
+}
+
 button.light-grey-button {
     width: 217px;
     font-size: 13px;
