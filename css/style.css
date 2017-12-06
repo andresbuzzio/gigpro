@@ -1279,6 +1279,11 @@ input[type=text].contact-us {
     padding: 10px 0 10px 10px;
     color: #999;
 }
+input[type=password].contact-us {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    color: #999;
+}
 input {
     border: 1px solid #ccc;
 }
@@ -2042,6 +2047,7 @@ color:#FF2D55;
 
 p.align-left {
 text-align: left;
+float: left;
 }
 
 p.align-center {
@@ -2101,6 +2107,22 @@ input[type=text].rupee {
     background-position:0;
 }
 
+/* Calender Pick */
+
+#ui-datepicker-div {
+position: absolute !important;
+top:540px !important;
+background: #fff;
+padding: 10px;
+border: 1px solid #ccc;
+}
+
+a.ui-state-default {
+font-size: 12px;
+color:#000;
+padding: 0 10px;
+}
+
 select.select-form-tools,
 select:focus .select-form-tools,
 select:checked .select-form-tools,
@@ -2137,7 +2159,16 @@ font-weight:300;
 }
 
 .radio-text-promokit {
-padding-top: 22px;
+padding-top: 11px;
+padding-right: 10px;
+float: left;
+font-size: 14px;
+font-family: 'Montserrat', sans-serif;
+font-weight:300;
+}
+
+.radio-text-promokit1 {
+padding-top: 21px;
 padding-right: 10px;
 float: left;
 font-size: 14px;
@@ -2292,6 +2323,7 @@ color: #000;
 .btn-info.transparent {
 background: transparent!important;
 color: #000;
+box-shadow: none;
 }
 
 button.light-grey-button {
@@ -4837,6 +4869,7 @@ border-left:1px solid #BBB;
 .box-ss {
 border: 1px solid #999;
 margin-bottom: 20px;
+overflow: hidden;
 }
 
 .box-ss-white {
@@ -5081,8 +5114,10 @@ margin: 0 5%;
 }
 
 button.add-favourites {
+/*
 width: 70%;
 margin: 4px 15%;
+*/
 background:#5AC8FA;
 border: 0;
 border-radius: 5px;
@@ -5474,6 +5509,7 @@ font-weight:600;
 font-size: 27px;
 color:#fff;
 text-align: center;
+border-radius: 30px;
 }
 
 .rounded-blue-ss {
