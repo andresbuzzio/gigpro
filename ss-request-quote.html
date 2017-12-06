@@ -6,7 +6,10 @@
 <!-- Setting Viewport -->
 <meta name="viewport" content="width=device-width, user-scalable=no" />
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -119,7 +122,9 @@
 
 <div class="col-md-6">
 <div class="label-form">Select a Subject</div>
-<input type="text" class="vendor-field" name="name" placeholder="16/01/1980">
+
+<input type="text" id="datepicker" class="vendor-field" placeholder="16/01/1980">
+
 </div>
 
 <div class="col-md-6">
@@ -129,7 +134,7 @@
 </div>
 
 <div class="col-md-3 margin-small-top">
-  <a href="#" class="blue-upload hundred-percent">Continue</a>
+  <a href="#" class="blue-upload hundred-percent">Save & Continue</a>
 </div>
 
 </div>
@@ -170,10 +175,12 @@
 
 <div id="collapse2" class="panel-collapse collapse">
 
-<div class="col-md-3 margin-small-top">
+<div class="row-full">
+
+<div class="col-md-2 margin-small-top">
 </div>
 
-<div class="col-md-3 margin-small-top">
+<div class="col-md-4 margin-small-top">
     <div class="box-ss">
 
     <div class="photo-ss-small">
@@ -192,29 +199,22 @@
       <i class="fa fa-star-o orange-star"></i>
     </div>
 
-    <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
-    <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
-
     <p class="profession">
-    Comedian<br>
     NY City, US
     </p>
 
-    <div class="wrapper">
-    <button class="add-favourites">
-      <i class="fa fa-heart"></i>
-      Add to favourites
-    </button>
+    <div class="col-md-10">
+    <p class="small">Yes, please contact</p>
     </div>
 
-    <div class="wrapper">
-    <button class="get-quote">Get a free quote</button>
+    <div class="col-md-2">
+      <input type="checkbox">
     </div>
 
-    </div>
+</div>
 </div>
 
-<div class="col-md-3 margin-small-top">
+<div class="col-md-4 margin-small-top">
   <div class="box-ss">
     <div class="photo-ss-small">
       <div class="caption-ss-small">
@@ -232,27 +232,27 @@
       <i class="fa fa-star-o orange-star"></i>
     </div>
 
-    <p class="verified-bookings"><span class="magenta">50 verified bookings</span></p>
-    <p class="verified-bookings"><span class="blue">50 verified bookings</span></p>
-
     <p class="profession">
-    Comedian<br>
     NY City, US
     </p>
 
-    <div class="wrapper">
-    <button class="add-favourites">
-      <i class="fa fa-heart"></i>
-      Add to favourites
-    </button>
+    <div class="col-md-10">
+    <p class="small">Yes, please contact</p>
     </div>
 
-    <div class="wrapper">
-    <button class="get-quote">Get a free quote</button>
+    <div class="col-md-2">
+      <input type="checkbox">
     </div>
+
 
 </div>
 </div>
+
+<div class="col-md-2 margin-small-top">
+</div>
+
+</div>
+<!-- end photos + checkboxes -->
 
 
 <div class="row-full">
@@ -260,22 +260,19 @@
 </div>
 
 <div class="col-md-3">
-  <div class="wrapper">
-  <div class="itswrapped">
-  <a href="#" class="grey-upload">Back</a>
-  </div>
-  </div>
+
+</div>
+
+<div class="col-md-3">
+
 </div>
 
 <div class="col-md-3">
   <div class="wrapper">
   <div class="itswrapped">
-  <a href="#" class="blue-upload">Continue</a>
+  <a href="#" class="blue-upload">Save & Continue</a>
   </div>
   </div>
-</div>
-
-<div class="col-md-3">
 </div>
 </div>
 <!-- end row-->
@@ -330,8 +327,74 @@
 
 <div class="col-md-9 margin-small-top">
   <div class="col-md-12 no-padding-left">
-    <p>Returning user? <span class="underline">Login</span></p>
+
+    <p>Returning user?</p>
+
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg transparent" data-toggle="modal" data-target="#myModal">
+<span class="underline">Login</span>
+</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Login</h4>
+      </div>
+      <div class="modal-body">
+
+        <div class="col-md-12">
+        <p>Welcome back to the party!</p>
+        </div>
+
+        <div class="col-md-12">
+        <div class="label-form">Name:</div>
+        <input type="text" class="contact-us" name="name">
+        </div>
+
+        <div class="col-md-12">
+        <div class="label-form">Password:</div>
+        <input type="password" class="contact-us" name="password">
+        </div>
+
+        <div class="col-md-12 margin-top">
+        <div class="wrapper">
+        <div class="its-wrapped">
+        <a href="#">
+        <button type="button" class="button-send">
+        Send
+        </button>
+        </a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-md-6">
+        <p class="align-left">Keep me logged in&nbsp;&nbsp;</p>
+        <input type="checkbox">
+        </div>
+
+        <div class="col-md-6">
+        <a href="#">Forgot Password?</a>
+        </div>
+
+
+      </div>
+      <div class="modal-footer">
+
+      </div>
+    </div>
+
   </div>
+</div>
+
+
+  </div>
+  <!-- end col-md-12 -->
 
   <div class="col-md-6 no-padding-left">
     <div class="label-form">First Name:</div>
@@ -374,22 +437,19 @@
   </div>
 
   <div class="col-md-3">
-    <div class="wrapper">
-    <div class="itswrapped">
-    <a href="#" class="grey-upload">Back</a>
-    </div>
-    </div>
+
+  </div>
+
+  <div class="col-md-3">
+
   </div>
 
   <div class="col-md-3">
     <div class="wrapper">
     <div class="itswrapped">
-    <a href="#" class="blue-upload">Continue</a>
+    <a href="#" class="blue-upload">Save & Continue</a>
     </div>
     </div>
-  </div>
-
-  <div class="col-md-3">
   </div>
   </div>
   <!-- end row-->
@@ -439,10 +499,18 @@
 <p class="no-padding-left">Would you like to create a new quote request or group this with a previous request?</p>
 
 <div class="row-full">
-<input type="radio" class="radio-tools" name="01" value="01"><div class="radio-text-promokit">Create a new quote request</div>
+<input type="radio" class="radio-tools" name="01" value="01">
+
+<a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="radio-text-promokit1">
+Create a new event
+</a>
+
+
 </div>
 <div class="row-full">
-<input type="radio" class="radio-tools" name="02" value="02"><div class="radio-text-promokit">Anniversary Party (07/07/2014) Ballon Twister</div>
+<input type="radio" class="radio-tools" name="02" value="02"><div class="radio-text-promokit"><a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="radio-text-promokit">Anniversary Party (07/07/2014) Ballon Twister</a>
+
+</div>
 </div>
 
 <p class="bold margin-small-top">Which would you like quotes from?</p>
@@ -511,22 +579,23 @@ NY City, US<br>
 </div>
 
 <div class="col-md-3">
-  <div class="wrapper">
-  <div class="itswrapped">
-  <a href="#" class="grey-upload">Back</a>
-  </div>
-  </div>
+
+</div>
+
+<div class="col-md-3">
+
 </div>
 
 <div class="col-md-3">
   <div class="wrapper">
   <div class="itswrapped">
-  <a href="#" class="blue-upload">Continue</a>
-  </div>
-  </div>
-</div>
 
-<div class="col-md-3">
+    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="blue-upload">
+    Save & Continue
+    </a>
+
+  </div>
+  </div>
 </div>
 
 </div>
@@ -569,6 +638,9 @@ NY City, US<br>
 
 </div>
 <!-- end row-->
+
+
+<div id="collapse4" class="panel-collapse collapse">
 
 <div class="row">
 
@@ -628,22 +700,19 @@ NY City, US<br>
   </div>
 
   <div class="col-md-3">
-    <div class="wrapper">
-    <div class="itswrapped">
-    <a href="#" class="grey-upload">Back</a>
-    </div>
-    </div>
+
+  </div>
+
+  <div class="col-md-3">
+
   </div>
 
   <div class="col-md-3">
     <div class="wrapper">
     <div class="itswrapped">
-    <a href="#" class="blue-upload">Continue</a>
+    <a href="#" class="blue-upload">Save & Continue</a>
     </div>
     </div>
-  </div>
-
-  <div class="col-md-3">
   </div>
   </div>
   <!-- end row-->
@@ -656,6 +725,9 @@ NY City, US<br>
 
 </div>
 <!-- end row-->
+
+</div>
+<!-- end collapse-->
 
 <div class="row margin-small-top">
 
@@ -684,6 +756,8 @@ NY City, US<br>
 
 </div>
 <!-- end row-->
+
+<div id="collapse5" class="panel-collapse collapse">
 
 <div class="row">
 
@@ -824,30 +898,35 @@ NY City, US<br>
 </div>
 </div>
 
-  <div class="row-full margin-small-top">
-  <div class="col-md-3">
+<div class="row-full margin-small-top">
+
+  <div class="col-md-1">
+  </div>
+
+  <div class="col-md-10">
+
+  <div class="col-md-9">
   </div>
 
   <div class="col-md-3">
     <div class="wrapper">
     <div class="itswrapped">
-    <a href="#" class="grey-upload">Back</a>
+    <a href="#" class="blue-upload">Save & Continue</a>
     </div>
     </div>
   </div>
 
-  <div class="col-md-3">
-    <div class="wrapper">
-    <div class="itswrapped">
-    <a href="#" class="blue-upload">Continue</a>
-    </div>
-    </div>
+  </div>
+  <!-- end col-md-10-->
+
+  <div class="col-md-1">
   </div>
 
-  <div class="col-md-3">
-  </div>
   </div>
   <!-- end row-->
+
+</div>
+<!-- end collapse5-->
 
 </div>
 
@@ -976,27 +1055,30 @@ NY City, US<br>
 </div>
 
 <div class="col-md-3">
-  <div class="wrapper">
-  <div class="itswrapped">
-  <a href="#" class="grey-upload">Back</a>
-  </div>
-  </div>
+
+</div>
+
+<div class="col-md-3">
+
 </div>
 
 <div class="col-md-3">
   <div class="wrapper">
   <div class="itswrapped">
-  <a href="#" class="blue-upload">Continue</a>
-  </div>
-  </div>
-</div>
 
-<div class="col-md-3">
+  <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="blue-upload">
+  Save & Continue
+  </a>
+
+  </div>
+  </div>
 </div>
 </div>
 <!-- end row-->
 
 <div class="row-full margin-small-top">
+
+<div id="collapse6" class="panel-collapse collapse">
 
 <div class="yay">
 Yay!
@@ -1044,6 +1126,9 @@ GIG ID: 37498732
 </div>
 </div>
 <!-- end row-->
+
+</div>
+<!-- end collapse6 -->
 
 </div>
 <!-- end container-->
@@ -1197,5 +1282,12 @@ GIG ID: 37498732
 </footer>
 
 
+<script>
+$( function() {
+  $( "#datepicker" ).datepicker();
+} );
+</script>
+
+<script src="js/gigpro.js"></script>
 </body>
 </html>
