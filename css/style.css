@@ -1407,6 +1407,16 @@ font-weight:600;
 .margin-view-promokit {
     padding:20px 0;
 }
+.fixed-button {
+    position: fixed;
+    bottom:40px;
+    z-index: 99999;
+    width: 90%;
+}
+.absolute-button {
+    position: absolute;
+    top:0;
+}
 .margin-bottom-view-promokit {
     padding-bottom: 20px;
 }
