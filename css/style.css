@@ -1409,9 +1409,12 @@ font-weight:600;
 }
 .fixed-button {
     position: fixed;
-    bottom:40px;
+    bottom:0;
     z-index: 99999;
     width: 90%;
+    background: #484848;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .absolute-button {
     position: absolute;
@@ -2551,6 +2554,12 @@ border-right: 1px solid #999;
 
 .row-full {
 width: 100%;
+overflow: hidden;
+}
+
+.row-full-fixed {
+width: 60%;
+margin: 0 20%;
 overflow: hidden;
 }
 
