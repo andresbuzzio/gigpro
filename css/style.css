@@ -1411,8 +1411,7 @@ font-weight:600;
     position: fixed;
     bottom:0;
     z-index: 99999;
-    width: 90%;
-    background: #484848;
+    background: #373737;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -2558,8 +2557,8 @@ overflow: hidden;
 }
 
 .row-full-fixed {
-width: 60%;
-margin: 0 20%;
+width: 40%;
+margin: 0 30%;
 overflow: hidden;
 }
 
