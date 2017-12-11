@@ -6507,6 +6507,12 @@ font-weight:300;
     float: none !important;
     }
 
+    .row-full-fixed {
+    width: 90%;
+    margin: 0 5%;
+    overflow: hidden;
+    }
+
 }
 @media (max-width: 680px) {
     h1.title {
