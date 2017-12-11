@@ -3133,6 +3133,11 @@ background:#5AC8FA;
 border-bottom:none;
 }
 
+.panel-heading.panel-group-grey {
+background:#f2f2f2;
+border-bottom:none;
+}
+
 .panel-heading.panel-group-magenta {
 background:#FF2D55;
 border-bottom:none;
